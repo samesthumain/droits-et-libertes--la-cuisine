@@ -3,8 +3,9 @@
 ## Projet par: La cuisine
 
 ### Membres de l'équipe:
-- Samuel Desmeules-Voyer: Intégrateur, développeur front-end, développeur Back-end et DevOp
 - Yara Abdanor: Intégrateur, développeur front-end, designer et assurance qualité
+- Samuel Desmeules-Voyer: Intégrateur, développeur front-end, développeur Back-end et DevOp
+
 
 ## Ce projet est produit dans le context du cours Projet Web | 582-518MO
 Page de présentation du projet: [Projet de session](https://tim-montmorency.com/timdoc/582-518MO/projet/)
