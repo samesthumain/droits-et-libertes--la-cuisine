@@ -13,3 +13,5 @@ Page de présentation du projet: [Projet de session](https://tim-montmorency.com
 Tableau Trello du projet: [Droits et libertés  - La cuisine](https://trello.com/b/SREvFP8R/droits-et-libertes-la-cuisine)
 
 Design de la page d'accueil: [Figma - design page d'accueil](https://www.figma.com/design/Wko3mVcVBPGa2DvH5QfIVj/Projet-site-web?node-id=0-1&t=A2A78Pr79l7igarM-1)
+
+Projet mis-en-ligne: [la-cuisine.tim-momo.com](https://la-cuisine.tim-momo.com/)
