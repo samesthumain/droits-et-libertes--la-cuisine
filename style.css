@@ -1,1 +1,35 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&display=swap");
+h1 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 64px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.infos-add {
+  font-family: "Jockey One", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.texte-banniere {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
