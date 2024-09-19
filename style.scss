@@ -51,3 +51,50 @@ p{
     font-size: 16px;
     color:variables.$blanc;
 }
+
+
+//HEADER
+
+.main-header{
+    background-color: variables.$blanc;
+
+    .donation{
+      background-color: variables.$primary;
+      color: variables.$blanc;
+      font-family: "Jockey One", sans-serif;
+      font-size: 24px;
+      text-transform: capitalize;
+    }
+}
+
+.main-navbar{
+    background-color: variables.$primary;
+    color: variables.$blanc;
+    font-family: "Jockey One", sans-serif;
+    font-size: 24px;
+}
+
+//MAIN
+
+.nouvelles-title{
+    background-color: variables.$secondary;
+}
+
+.nouvelles-card-container{
+    display: flex;
+}
+
+//FOOTER
+.footer-container{
+    background-color: variables.$primary;
+    color: variables.$blanc;
+    .footer-primary{
+        .donation{
+            background-color: variables.$primary;
+            color: variables.$blanc;
+        
+            border-color: variables.$blanc;
+            border-style: solid;
+            }
+    }
+}

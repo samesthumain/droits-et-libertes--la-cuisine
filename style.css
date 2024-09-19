@@ -38,4 +38,41 @@ p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #ffffff;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+.main-header .donation {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.main-navbar {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+}
+
+.nouvelles-title {
+  background-color: #EDFA59;
+}
+
+.nouvelles-card-container {
+  display: flex;
+}
+
+.footer-container {
+  background-color: #B20838;
+  color: #ffffff;
+}
+.footer-container .footer-primary .donation {
+  background-color: #B20838;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-style: solid;
 }/*# sourceMappingURL=style.css.map */
