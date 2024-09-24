@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&display=swap");
+h1 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 64px;
+  text-transform: capitalize;
+  color: #B20838;
+}
+
+h2 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.infos-add {
+  font-family: "Jockey One", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #B20838;
+}
+
+.texte-banniere {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+.main-header .donation {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.main-navbar {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+}
+
+.nouvelles-title {
+  background-color: #EDFA59;
+}
+
+.nouvelles-card-container {
+  display: flex;
+}
+
+.footer-container {
+  background-color: #B20838;
+  color: #ffffff;
+}
+.footer-container .footer-primary .donation {
+  background-color: #B20838;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-style: solid;
+}/*# sourceMappingURL=style.css.map */
