@@ -6,6 +6,7 @@
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .logo{
         margin-bottom: none;
@@ -18,9 +19,9 @@
       font-size: 24px;
       text-transform: capitalize;
       border-style: none;
-      padding-right: 30px;
+      /*padding-right: 30px;
       padding-left: 30px;
-      margin-top: 30px;
+      margin-top: 30px;*/
       
     }
 
@@ -31,7 +32,7 @@
         text-transform: capitalize;
         background-color: variables.$blanc;
         color:variables.$noir;
-        margin-top: 20px;
+        /*margin-top: 20px;*/
     }
     
 }
