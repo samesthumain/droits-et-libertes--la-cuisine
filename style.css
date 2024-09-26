@@ -54,11 +54,7 @@
   justify-content: space-between;
 }
 .main-header .logo {
-<<<<<<< Updated upstream
-  margin-top: 20px;
-=======
   margin-bottom: none;
->>>>>>> Stashed changes
 }
 .main-header .donation {
   background-color: #B20838;
