@@ -104,6 +104,11 @@
   margin: 10px;
 }
 
+.header-row-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
 h1, .h1 {
   font-family: "Jockey One", sans-serif;
   font-size: 64px;
