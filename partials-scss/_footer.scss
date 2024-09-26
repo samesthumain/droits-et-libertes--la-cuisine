@@ -9,7 +9,7 @@
     
         p{
             font-family: "Inter", sans-serif;
-            font-size: 16px;
+            font-size: 12px;
             color:variables.$blanc;
         }
         .donation{
@@ -18,7 +18,11 @@
             color: variables.$blanc;
             font-family: "Jockey One", sans-serif;
             font-size: 24px;
-            text-transform: capitalize;
+            text-transform: uppercase;
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+            margin: 10px;
         }
     }
 
