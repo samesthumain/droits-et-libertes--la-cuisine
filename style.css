@@ -47,14 +47,14 @@
   text-align: center;
 }
 
-/*.logo{
-    background-image: url(/sources/medias/image/logo_small.png);
-}*/
 .main-header {
   background-color: #ffffff;
   text-align: center;
   display: flex;
   justify-content: space-between;
+}
+.main-header .logo {
+  margin-top: 20px;
 }
 .main-header .donation {
   background-color: #B20838;
@@ -62,14 +62,19 @@
   font-family: "Jockey One", sans-serif;
   font-size: 24px;
   text-transform: capitalize;
+  border-style: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 30px;
 }
 .main-header .bouton-langue {
   border: none;
   font-family: "Jockey One", sans-serif;
-  font-size: 24px;
+  font-size: 35px;
   text-transform: capitalize;
   background-color: #ffffff;
   color: #000000;
+  margin-top: 20px;
 }
 
 .search {
@@ -89,10 +94,10 @@
   font-size: 24px;
   display: flex;
   justify-content: space-around;
+  margin: 5px;
 }
-
-.header-row-2 {
-  display: flex;
+.main-navbar .menu-title {
+  margin: 10px;
 }
 
 h1, .h1 {

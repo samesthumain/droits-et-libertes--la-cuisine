@@ -1,29 +1,37 @@
 @use 'variables';
 
-/*.logo{
-    background-image: url(/sources/medias/image/logo_small.png);
-}*/
 
 .main-header{
     background-color: variables.$blanc;
     text-align: center;
     display: flex;
     justify-content: space-between;
+
+    .logo{
+        margin-top: 20px;
+    }
+
     .donation{
       background-color: variables.$primary;
       color: variables.$blanc;
       font-family: "Jockey One", sans-serif;
       font-size: 24px;
       text-transform: capitalize;
+      border-style: none;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-top: 30px;
+      
     }
 
     .bouton-langue{
         border: none;
         font-family: "Jockey One", sans-serif;
-        font-size: 24px;
+        font-size: 35px;
         text-transform: capitalize;
         background-color: variables.$blanc;
         color:variables.$noir;
+        margin-top: 20px;
     }
     
 }
@@ -45,11 +53,12 @@
     font-size: 24px;
     display: flex;
     justify-content: space-around;
-}
+    margin: 5px;
+    
 
-.header-row-2{
-    display: flex;
-
+    .menu-title{
+        margin: 10px;
+    }
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
