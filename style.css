@@ -45,6 +45,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+.footer-container .footer-secondary img {
+  width: 50%;
+  height: 50%;
+}
 .footer-container .copyright {
   font-family: "Inter", sans-serif;
   font-size: 16px;
