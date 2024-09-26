@@ -68,10 +68,76 @@
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
-    
+    .full-header{
+
+        .main-header{
+            background-color: variables.$blanc;
+            display: flex;
+            .donation{
+                margin: none;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            .bouton-langue{
+                border: none;
+                font-family: "Jockey One", sans-serif;
+                font-size: 25px;
+                text-transform: capitalize;
+                background-color: variables.$blanc;
+                color:variables.$noir;
+                /*margin-top: 20px;*/
+            }
+        }
+
+        .main-navbar{
+            background-color: variables.$blanc;
+            color: variables.$noir;
+            font-family: "Jockey One", sans-serif;
+            font-size: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 5px;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .full-header{
+
+        .main-header{
+            background-color: variables.$blanc;
+            display: flex;
+            justify-content: flex-start;
+            
+            .donation{
+                margin: none;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            .bouton-langue{
+                border: none;
+                font-family: "Jockey One", sans-serif;
+                font-size: 25px;
+                text-transform: capitalize;
+                background-color: variables.$blanc;
+                color:variables.$noir;
+                /*margin-top: 20px;*/
+            }
+        }
+
+        .main-navbar{
+            background-color: variables.$blanc;
+            color: variables.$noir;
+            font-family: "Jockey One", sans-serif;
+            font-size: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+    }
 }
   
