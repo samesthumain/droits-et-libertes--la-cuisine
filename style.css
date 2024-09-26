@@ -224,9 +224,6 @@
     color: #000000;
     font-family: "Jockey One", sans-serif;
     font-size: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
   }
 }
 h1, .h1 {
