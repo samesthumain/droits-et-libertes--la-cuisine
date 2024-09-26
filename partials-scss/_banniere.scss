@@ -2,8 +2,9 @@
 
 .banniere{
     width: 100%;
-    height: 25px;
+    height: 20px;
     background-color: variables.$primary;
+    text-align: center;
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
