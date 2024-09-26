@@ -61,7 +61,17 @@
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
-    
+    .footer-first{
+        p{
+            background-color: variables.$primary;
+            border-color: variables.$blanc;
+            color: variables.$blanc;
+            font-family: "Jockey One", sans-serif;
+            font-size: 24px;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px) {
