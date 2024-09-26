@@ -1,4 +1,4 @@
-@use 'partials-scss/variables';
+@use 'variables';
 
 .logo{
     background-image: url(/sources/medias/image/logo_small.png);
@@ -20,9 +20,11 @@
 
 .main-navbar{
     background-color: variables.$blanc;
-    color: variables.$blanc;
+    color: variables.$noir;
     font-family: "Jockey One", sans-serif;
     font-size: 24px;
+    display: flex;
+    justify-content: space-around;
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
