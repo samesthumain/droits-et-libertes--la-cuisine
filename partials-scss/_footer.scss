@@ -1,3 +1,21 @@
+@use 'partials-scss/variables';
+
+.footer-container{
+    background-color: variables.$primary;
+    color: variables.$blanc;
+
+
+    .footer-primary{
+        .donation{
+            background-color: variables.$primary;
+            color: variables.$blanc;
+        
+            border-color: variables.$blanc;
+            border-style: solid;
+            }
+    }
+}
+
 @media screen and (min-width: 834px) and (max-width:1439px) {
     
 }

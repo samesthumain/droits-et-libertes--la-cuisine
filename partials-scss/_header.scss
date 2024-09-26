@@ -1,10 +1,28 @@
+@use 'partials-scss/variables';
+
 .logo{
     background-image: url(/sources/medias/image/logo_small.png);
 }
 
 .main-header{
+    background-color: variables.$blanc;
+    text-align: center;
     display: flex;
     justify-content: space-between;
+    .donation{
+      background-color: variables.$primary;
+      color: variables.$blanc;
+      font-family: "Jockey One", sans-serif;
+      font-size: 24px;
+      text-transform: capitalize;
+    }
+}
+
+.main-navbar{
+    background-color: variables.$blanc;
+    color: variables.$blanc;
+    font-family: "Jockey One", sans-serif;
+    font-size: 24px;
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
