@@ -67,3 +67,88 @@ p, .p{
 
 //FOOTER
 
+
+//stuff que j'ai fais puis qu je vais deplacer ailleurs :3
+
+.nos-luttes-title{
+    background-color: variables.$secondary;
+    text-decoration: underline;
+}
+
+.nos-luttes-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    button{
+    text-align: left;
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    }
+}
+
+.temoignages-title{
+    background-color: variables.$secondary;
+    text-decoration: underline;
+}
+
+
+.card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    img{
+        width: 250px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+    }
+    
+    .container{
+        h4{
+
+            font-family: "Jockey One", sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        p{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.donations-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    p{
+        text-transform: uppercase;
+        color: variables.$primary;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: variables.$secondary;
+    }
+}
+
+.donationici{
+    background-color: variables.$primary;
+    color: variables.$blanc;
+    border: none;
+    margin-bottom: 40px;
+    
+    
+    font-family: "Jockey One", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

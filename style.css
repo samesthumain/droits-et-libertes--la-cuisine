@@ -273,4 +273,75 @@ p, .p {
 
 .nouvelles-card-container {
   display: flex;
+}
+
+.nos-luttes-title {
+  background-color: #EDFA59;
+  text-decoration: underline;
+}
+
+.nos-luttes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nos-luttes-list button {
+  text-align: left;
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+}
+
+.temoignages-title {
+  background-color: #EDFA59;
+  text-decoration: underline;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.card img {
+  width: 250px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.card .container h4 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.card .container p {
+  text-transform: uppercase;
+}
+
+.donations-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.donations-box p {
+  text-transform: uppercase;
+  color: #B20838;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #EDFA59;
+}
+
+.donationici {
+  background-color: #B20838;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 40px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
