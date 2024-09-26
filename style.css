@@ -18,9 +18,10 @@
   color: #ffffff;
 }
 .footer-container .footer-first p {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-size: 12px;
   color: #ffffff;
+  margin: 10px;
 }
 .footer-container .footer-first .donation {
   background-color: #B20838;
