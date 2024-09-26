@@ -1,8 +1,8 @@
 @use 'variables';
 
-.logo{
+/*.logo{
     background-image: url(/sources/medias/image/logo_small.png);
-}
+}*/
 
 .main-header{
     background-color: variables.$blanc;
@@ -49,7 +49,7 @@
 
 .header-row-2{
     display: flex;
-    
+
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {

@@ -40,10 +40,9 @@
   text-align: center;
 }
 
-.logo {
-  background-image: url(/sources/medias/image/logo_small.png);
-}
-
+/*.logo{
+    background-image: url(/sources/medias/image/logo_small.png);
+}*/
 .main-header {
   background-color: #ffffff;
   text-align: center;
