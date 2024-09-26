@@ -4,6 +4,11 @@
   height: 20px;
   background-color: #B20838;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.banniere img {
+  height: 16px;
 }
 
 .bouton-langue {
