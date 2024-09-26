@@ -16,11 +16,31 @@
       font-size: 24px;
       text-transform: capitalize;
     }
+
+    .bouton-langue{
+        border: none;
+        font-family: "Jockey One", sans-serif;
+        font-size: 24px;
+        text-transform: capitalize;
+        background-color: variables.$blanc;
+        color:variables.$noir;
+    }
+    
+}
+
+.search{
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    border-style: none;
+}
+
+.full-header{
+    background-color: variables.$blanc;
 }
 
 .main-navbar{
-    background-color: variables.$blanc;
-    color: variables.$noir;
+    background-color: variables.$primary;
+    color: variables.$blanc;
     font-family: "Jockey One", sans-serif;
     font-size: 24px;
     display: flex;

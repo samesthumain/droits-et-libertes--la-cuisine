@@ -4,6 +4,23 @@
     background-color: variables.$primary;
     color: variables.$blanc;
 
+    .footer-first{
+        color: variables.$blanc;
+    
+        p{
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            color:variables.$blanc;
+        }
+        .donation{
+            background-color: variables.$primary;
+            border-color: variables.$blanc;
+            color: variables.$blanc;
+            font-family: "Jockey One", sans-serif;
+            font-size: 24px;
+            text-transform: capitalize;
+        }
+    }
 
     .footer-primary{
         .donation{
@@ -13,6 +30,18 @@
             border-color: variables.$blanc;
             border-style: solid;
             }
+    }
+
+    .footer-secondary{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .copyright{
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color:variables.$blanc;
+        text-align: center;
     }
 }
 

@@ -7,11 +7,37 @@
   background-color: #B20838;
   color: #ffffff;
 }
+.footer-container .footer-first {
+  color: #ffffff;
+}
+.footer-container .footer-first p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-container .footer-first .donation {
+  background-color: #B20838;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+}
 .footer-container .footer-primary .donation {
   background-color: #B20838;
   color: #ffffff;
   border-color: #ffffff;
   border-style: solid;
+}
+.footer-container .footer-secondary {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-container .copyright {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .logo {
@@ -31,10 +57,28 @@
   font-size: 24px;
   text-transform: capitalize;
 }
-
-.main-navbar {
+.main-header .bouton-langue {
+  border: none;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
   background-color: #ffffff;
   color: #000000;
+}
+
+.search {
+  background-color: rgb(221, 221, 221);
+  border-radius: 20px;
+  border-style: none;
+}
+
+.full-header {
+  background-color: #ffffff;
+}
+
+.main-navbar {
+  background-color: #B20838;
+  color: #ffffff;
   font-family: "Jockey One", sans-serif;
   font-size: 24px;
   display: flex;
