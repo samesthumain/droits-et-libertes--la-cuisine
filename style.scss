@@ -32,12 +32,12 @@ h3, .h3{
     color:variables.$blanc;
 }
 
-p, .p{
-    font-family: "Jockey One", sans-serif;
-    font-size: 24px;
-    text-transform: capitalize;
-    color:variables.$noir;
-}
+//p, .p{
+//    font-family: "Jockey One", sans-serif;
+//    font-size: 24px;
+ //   text-transform: capitalize;
+ //   color:variables.$noir;
+//}
 
 .infos-add{
     font-family: "Jockey One", sans-serif;
@@ -69,6 +69,8 @@ p, .p{
 
 
 //stuff que j'ai fais puis qu je vais deplacer ailleurs :3
+
+
 
 .nos-luttes-title{
     background-color: variables.$secondary;
@@ -153,3 +155,10 @@ p, .p{
     padding-bottom: 50px;
 }
 
+@media screen and (min-width: 834px) and (max-width:1439px) {
+    
+}
+
+@media screen and (min-width: 1440px) {
+    
+}
