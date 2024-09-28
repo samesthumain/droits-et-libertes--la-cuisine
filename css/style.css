@@ -361,4 +361,54 @@ p, .p {
   padding-right: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media screen and (min-width: 834px) and (max-width: 1439px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .card img {
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  .card .container h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .card .container p {
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .card img {
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 100px;
+  }
+  .card .container h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .card .container p {
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
