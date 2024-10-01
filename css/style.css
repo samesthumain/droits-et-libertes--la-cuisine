@@ -306,6 +306,8 @@ p, .p {
   text-align: left;
   font-family: "Jockey One", sans-serif;
   font-size: 30px;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(90deg, rgb(250, 118, 89) 0%, rgba(255, 255, 255, 0) 29%);
 }
 
 .temoignages-title {
@@ -330,6 +332,8 @@ p, .p {
   font-family: "Jockey One", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(90deg, rgb(250, 118, 89) 0%, rgba(255, 255, 255, 0) 29%);
 }
 .card .container p {
   text-transform: uppercase;
