@@ -4,12 +4,15 @@
 .main-header{
     background-color: variables.$blanc;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-areas: 
+    "logo donnez langue"
+    "hotdog searchbar searchbar";
+
 
     .logo{
         margin-bottom: none;
+        grid-area: logo;
     }
 
     .donation{
@@ -19,6 +22,8 @@
       font-size: 24px;
       text-transform: capitalize;
       border-style: none;
+
+      grid-area: donnez;
       /*padding-right: 30px;
       padding-left: 30px;
       margin-top: 30px;*/
@@ -32,6 +37,8 @@
         text-transform: capitalize;
         background-color: variables.$blanc;
         color:variables.$noir;
+
+        grid-area: langue;
         /*margin-top: 20px;*/
     }
     
@@ -62,6 +69,14 @@
     }
 }
 
+.container-searchbar{
+    grid-area: searchbar;
+}
+
+.hotdog{
+    grid-area: hotdog;
+}
+
 .header-row-2{
     display: flex;
     justify-content: space-around;
@@ -72,7 +87,6 @@
 
         .main-header{
             background-color: variables.$blanc;
-            display: flex;
             .donation{
                 margin: none;
                 padding-left: 30px;
@@ -108,8 +122,6 @@
 
         .main-header{
             background-color: variables.$blanc;
-            display: flex;
-            justify-content: flex-start;
             
             .donation{
                 margin: none;

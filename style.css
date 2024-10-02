@@ -113,12 +113,12 @@
 .main-header {
   background-color: #ffffff;
   text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-areas: "logo donnez langue" "hotdog searchbar searchbar";
 }
 .main-header .logo {
   margin-bottom: none;
+  grid-area: logo;
 }
 .main-header .donation {
   background-color: #B20838;
@@ -127,6 +127,7 @@
   font-size: 24px;
   text-transform: capitalize;
   border-style: none;
+  grid-area: donnez;
   /*padding-right: 30px;
   padding-left: 30px;
   margin-top: 30px;*/
@@ -138,6 +139,7 @@
   text-transform: capitalize;
   background-color: #ffffff;
   color: #000000;
+  grid-area: langue;
   /*margin-top: 20px;*/
 }
 
@@ -164,6 +166,14 @@
   margin: 10px;
 }
 
+.container-searchbar {
+  grid-area: searchbar;
+}
+
+.hotdog {
+  grid-area: hotdog;
+}
+
 .header-row-2 {
   display: flex;
   justify-content: space-around;
@@ -172,7 +182,6 @@
 @media screen and (min-width: 834px) and (max-width: 1439px) {
   .full-header .main-header {
     background-color: #ffffff;
-    display: flex;
   }
   .full-header .main-header .donation {
     margin: none;
@@ -202,8 +211,6 @@
 @media screen and (min-width: 1440px) {
   .full-header .main-header {
     background-color: #ffffff;
-    display: flex;
-    justify-content: flex-start;
   }
   .full-header .main-header .donation {
     margin: none;
@@ -269,10 +276,27 @@ p, .p {
 
 .nouvelles-title {
   background-color: #EDFA59;
+  text-decoration: underline;
 }
 
 .nouvelles-card-container {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.slideshow-container {
+  display: flex;
+}
+.slideshow-container img {
+  background-size: cover;
+  border-style: solid;
+  border-color: #000000;
+}
+.slideshow-container a {
+  margin: none;
+  align-self: center;
 }
 
 .nos-luttes-title {
@@ -289,6 +313,8 @@ p, .p {
   text-align: left;
   font-family: "Jockey One", sans-serif;
   font-size: 30px;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(90deg, rgb(250, 118, 89) 0%, rgba(255, 255, 255, 0) 29%);
 }
 
 .temoignages-title {
@@ -313,6 +339,8 @@ p, .p {
   font-family: "Jockey One", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(90deg, rgb(250, 118, 89) 0%, rgba(255, 255, 255, 0) 29%);
 }
 .card .container p {
   text-transform: uppercase;
@@ -344,4 +372,54 @@ p, .p {
   padding-right: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media screen and (min-width: 834px) and (max-width: 1439px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .card img {
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  .card .container h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .card .container p {
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .card img {
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 100px;
+  }
+  .card .container h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .card .container p {
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
