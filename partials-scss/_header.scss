@@ -15,6 +15,11 @@
         grid-area: logo;
     }
 
+    .logo--full{
+        grid-area: full-logo;
+        display: none;
+    }
+
     .donation{
       background-color: variables.$primary;
       color: variables.$blanc;
@@ -87,6 +92,9 @@
 
         .main-header{
             background-color: variables.$blanc;
+            grid-template-areas: 
+    "logo donnez searchbar langue";
+
             .donation{
                 margin: none;
                 padding-left: 30px;
@@ -115,6 +123,10 @@
             margin: 5px;
         }
     }
+
+    .hotdog{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -122,6 +134,8 @@
 
         .main-header{
             background-color: variables.$blanc;
+            grid-template-areas: 
+    "full-logo donnez searchbar searchbar langue";
             
             .donation{
                 margin: none;
@@ -138,6 +152,14 @@
                 color:variables.$noir;
                 /*margin-top: 20px;*/
             }
+
+            .logo{
+                display: none;
+            }
+        
+            .logo--full{
+                display: block;
+            }
         }
 
         .main-navbar{
@@ -151,5 +173,11 @@
         }
 
     }
+
+    .hotdog{
+        display: none;
+    }
+
+    
 }
   

@@ -120,6 +120,10 @@
   margin-bottom: none;
   grid-area: logo;
 }
+.main-header .logo--full {
+  grid-area: full-logo;
+  display: none;
+}
 .main-header .donation {
   background-color: #B20838;
   color: #ffffff;
@@ -182,6 +186,7 @@
 @media screen and (min-width: 834px) and (max-width: 1439px) {
   .full-header .main-header {
     background-color: #ffffff;
+    grid-template-areas: "logo donnez searchbar langue";
   }
   .full-header .main-header .donation {
     margin: none;
@@ -207,10 +212,14 @@
     justify-content: space-around;
     margin: 5px;
   }
+  .hotdog {
+    display: none;
+  }
 }
 @media screen and (min-width: 1440px) {
   .full-header .main-header {
     background-color: #ffffff;
+    grid-template-areas: "full-logo donnez searchbar searchbar langue";
   }
   .full-header .main-header .donation {
     margin: none;
@@ -226,11 +235,20 @@
     color: #000000;
     /*margin-top: 20px;*/
   }
+  .full-header .main-header .logo {
+    display: none;
+  }
+  .full-header .main-header .logo--full {
+    display: block;
+  }
   .full-header .main-navbar {
     background-color: #ffffff;
     color: #000000;
     font-family: "Jockey One", sans-serif;
     font-size: 24px;
+  }
+  .hotdog {
+    display: none;
   }
 }
 h1, .h1 {
