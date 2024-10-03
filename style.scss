@@ -103,6 +103,16 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .nouvelle-card{
+        width: 100%:
+        img{
+            width: 100%;
+        }
+    }
+   
 }
 
 //FOOTER
