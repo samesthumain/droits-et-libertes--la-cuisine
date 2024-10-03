@@ -39,20 +39,36 @@
 @media screen and (min-width: 834px) {
 
     .nouvelles-card-container{
-    .nouvelle-card{
-        display: flex;
-        justify-content: center;
-        img{
-            width: 50%;
-        }
+        .nouvelle-card{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 50%;
+            }
 
-        .container{
-            width: 50%;
+            .container{
+                width: 50%;
+            }
         }
-    }
     }
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .nouvelles-card-container{
+        display: flex;
+        justify-content: space-around;
+        .nouvelle-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 25%;
+            img{
+                width: 100%;
+            }
+
+            .container{
+                width: 100%;
+            }
+        }
+    }
 }
