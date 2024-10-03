@@ -2,7 +2,7 @@
 
 .banniere{
     width: 100%;
-    height: 20px;
+    height: 50px;
     background-color: variables.$primary;
     text-align: center;
     display: flex;
@@ -13,8 +13,10 @@
     }
 }
 
-@media screen and (min-width: 834px) and (max-width:1439px) {
-    
+@media screen and (min-width: 834px) {
+    .banniere{
+        height: 20px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
