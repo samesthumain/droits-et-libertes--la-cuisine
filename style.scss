@@ -108,9 +108,17 @@ body{
 
     .nouvelle-card{
         width: 100%;
+        background: rgb(250,118,89);
+        background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
         img{
             width: 100%;
+            border-bottom: black solid 1px;
         }
+
+        p{
+            text-transform: uppercase;
+        }
+        
     }
    
 }
@@ -273,6 +281,31 @@ body{
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
 
+    .nouvelles-card-container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+
+        gap: 30px;
+    
+        .nouvelle-card{
+            width: 100%;
+            background: rgb(250,118,89);
+            background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
+            img{
+                width: 60%;
+                border-bottom: black solid 1px;
+            }
+    
+            p{
+                text-transform: uppercase;
+            }
+            
+        }
+       
+    }
     
 
     .card{
@@ -317,6 +350,33 @@ body{
 
 @media screen and (min-width: 1440px) {
 
+    .nouvelles-card-container{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+
+        gap: 30px;
+    
+        .nouvelle-card{
+            width: 30%;
+            background: rgb(250,118,89);
+            background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
+            img{
+                width: 30%;
+                border-bottom: black solid 1px;
+            }
+    
+            p{
+                text-transform: uppercase;
+            }
+            
+        }
+       
+    }
+
+
     .container-temoignage{
         display: flex;
         flex-direction: row;
@@ -347,10 +407,12 @@ body{
                 font-size: 30px;
                 text-transform: uppercase;
                 margin-left: 20px;
+                margin-right: 50px;
             }
             p{
                 text-transform: uppercase;
                 margin-left: 50px;
+                margin-right: 50px;
             }
         
     }
