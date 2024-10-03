@@ -62,8 +62,11 @@
             aria-controls="navbarToggleExternalContent"
             aria-expanded="false"
             aria-label="Toggle navigation"-->
-            <img class="hotdog" src="/sources/medias/image/menu_hotdog.png" alt="">
-            <img class="hotdog-retour" src="/sources/medias/image/menu_hotdog_retour.png" alt="">
+            <div class="hotdog-container">
+              <img class="hotdog" src="/sources/medias/image/menu_hotdog.png" alt="">
+              <img class="hotdog-retour display-none" src="/sources/medias/image/menu_hotdog_retour.png" alt="">
+            </div>
+            
           <!--/button-->
             <!--span class="navbar-toggler-icon"></span>
           </button>
@@ -80,13 +83,33 @@
       <!--navbar-->
       <div id="mainNav" class="main-navbar">
         <div class="collapse" id="navbarToggleExternalContent">
-          <div class="p-4 nav-menu">
-            <a class="menu-title">NOUVELLES</a>
+          <div class="p-4 nav-menu display-none">
+
+            <div class="container-liens-menu">
+              <a href="#" class="menu-title">NOUVELLES</a>
+            </div>
+            <div class="container-liens-menu">
+              <a href="#" class="menu-title">NOS LUTTES</a>
+            </div>
+            <div class="container-liens-menu">
+              <a href="#" class="menu-title">ÉQUIPE</a>
+            </div>
+            <div class="container-liens-menu">
+              <a href="#" class="menu-title">A PROPOS</a>
+            </div>
+            <div class="container-liens-menu">
+              <a href="#" class="menu-title">FAQ</a>
+            </div>
+            <div class="container-liens-menu">
+              <a href="#" class="menu-title">NOUS JOINDRE</a>
+            </div>
+
+            <!--a class="menu-title">NOUVELLES</a>
             <a class="menu-title">NOS LUTTES</a>
             <a class="menu-title">ÉQUIPE</a>
             <a class="menu-title">A PROPOS</a>
             <a class="menu-title">FAQ</a>
-            <a class="menu-title">NOUS JOINDRE</a>
+            <a class="menu-title">NOUS JOINDRE</a-->
           </div>
         </div>
       </div>
@@ -94,7 +117,7 @@
     </div>
 
     <!--MAIN-->
-    <div>
+    <div class="main">
       <div class="slogan-container">
         <img />
         <p class="slogan-principale">
