@@ -255,32 +255,6 @@ body{
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
-
-    .nouvelles-card-container{
-        display: flex;
-        flex-direction: column;
-        margin: 20px;
-        justify-content: center;
-        align-items: center;
-
-        gap: 30px;
-    
-        .nouvelle-card{
-            width: 100%;
-            background: rgb(250,118,89);
-            background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
-            img{
-                width: 60%;
-                border-bottom: black solid 1px;
-            }
-    
-            p{
-                text-transform: uppercase;
-            }
-            
-        }
-       
-    }
     
 
     .card{

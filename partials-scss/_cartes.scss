@@ -1,12 +1,12 @@
 @use 'variables';
 
 .nouvelles-card-container{
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 
     .nouvelle-card{
         width: 100%;
@@ -36,8 +36,21 @@
     }
 }*/
 
-@media screen and (min-width: 834px) and (max-width:1439px) {
-    
+@media screen and (min-width: 834px) {
+
+    .nouvelles-card-container{
+    .nouvelle-card{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 50%;
+        }
+
+        .container{
+            width: 50%;
+        }
+    }
+    }
 }
 
 @media screen and (min-width: 1440px) {
