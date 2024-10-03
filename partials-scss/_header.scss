@@ -99,6 +99,7 @@
 }
 
 .hotdog-retour{
+    display: none;
     grid-area: hotdog;
     width: 50px;
 }
@@ -109,6 +110,7 @@
 }*/
 
 .nav-menu{
+    display: none;
     grid-template-columns: auto auto auto;
 }
 
@@ -131,25 +133,13 @@
     }
 }
 
-.divider{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    &__losange{
-        width: 30px;
-    }
-
-    &__line{
-        background-color: variables.$primary;
-        height: 6px;
-        width: 100%;
-    }
-
-    
+.divider.divider-header{
+    display: none;
 }
 
-.display-none{
+
+
+/*.display-none{
     display: none;
 }
 
@@ -159,7 +149,7 @@
 
 .display-block{
     display: inline;
-}
+}*/
 
 @media screen and (min-width: 834px) {
     .full-header{
@@ -210,6 +200,10 @@
 
     .nav-menu{
         display: grid;
+    }
+    
+    .divider.divider-header{
+        display: flex;
     }
 }
 
@@ -265,6 +259,10 @@
     .nav-menu{
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
+    }
+
+    .divider.divider-header{
+        display: none;
     }
     
 }
