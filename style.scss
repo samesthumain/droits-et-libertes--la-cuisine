@@ -94,8 +94,10 @@ body{
 .nouvelles-title{
     background-color: variables.$secondary;
     text-decoration: underline;
+}
 
-    margin-left: 20px;
+.content{
+    margin: 0 20px;
 }
 
 
@@ -121,8 +123,6 @@ body{
 .nos-luttes-title{
     background-color: variables.$secondary;
     text-decoration: underline;
-
-    margin-left: 20px;
 }
 
 .nos-luttes-list{
@@ -149,8 +149,6 @@ body{
 .temoignages-title{
     background-color: variables.$secondary;
     text-decoration: underline;
-
-    margin-left: 20px;
 }
 
 

@@ -443,7 +443,10 @@ body {
 .nouvelles-title {
   background-color: #EDFA59;
   text-decoration: underline;
-  margin-left: 20px;
+}
+
+.content {
+  margin: 0 20px;
 }
 
 .slideshow-container {
@@ -462,7 +465,6 @@ body {
 .nos-luttes-title {
   background-color: #EDFA59;
   text-decoration: underline;
-  margin-left: 20px;
 }
 
 .nos-luttes-list {
@@ -486,7 +488,6 @@ body {
 .temoignages-title {
   background-color: #EDFA59;
   text-decoration: underline;
-  margin-left: 20px;
 }
 
 .card {
