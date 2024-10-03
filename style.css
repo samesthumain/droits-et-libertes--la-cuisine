@@ -428,6 +428,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.nouvelles-card-container .nouvelle-card {
+  width: 100%;
+}
 .nouvelles-card-container .nouvelle-card img {
   width: 100%;
 }
