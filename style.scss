@@ -220,9 +220,45 @@ body{
     padding-bottom: 50px;
 }
 
-.container-social-media{
+
+.footer-first{
     display: flex;
-    flex-wrap:wrap;
+    flex-direction: row;
+    flex-basis: 0;
+    justify-content: flex-start
+}
+
+.info-container{
+    
+}
+
+.container-social-media{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+
+    img{
+        display: block;
+        width: 100px;
+    }
+
+    .facebook{
+        margin-left: auto;
+        margin-right: none;
+    }
+
+    .twitter{
+        margin-left: auto;
+        margin-right: none;
+    }
+
+    .instagram{
+        margin-left: none;
+        margin-right: auto;
+    }
+    
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
@@ -343,5 +379,14 @@ body{
     margin-right: 20px;
     text-align: center;
     }
+}
+
+.footer-first{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 }
