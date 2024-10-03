@@ -231,6 +231,18 @@ body{
             }
         }
     }
+
+    .donations-box{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        p{
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -265,4 +277,16 @@ body{
     }
 
  }
+
+ .donations-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    p{
+        display: flex;
+        justify-content: center;
+    }
+}
 }

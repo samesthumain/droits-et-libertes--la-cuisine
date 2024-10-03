@@ -67,6 +67,13 @@
   text-align: center;
   font-family: "Jockey One", sans-serif;
   text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.divider__line--white {
+  background-color: #ffffff;
+  height: 6px;
+  width: 100%;
 }
 
 @media screen and (min-width: 834px) and (max-width: 1439px) {
@@ -514,6 +521,16 @@ body {
     text-transform: uppercase;
     margin-left: 50px;
   }
+  .donations-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .donations-box p {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1440px) {
   .card {
@@ -539,5 +556,15 @@ body {
   .card .container p {
     text-transform: uppercase;
     margin-left: 50px;
+  }
+  .donations-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .donations-box p {
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
