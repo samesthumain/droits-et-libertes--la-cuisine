@@ -130,6 +130,24 @@
     }
 }
 
+.divider{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__losange{
+        width: 30px;
+    }
+
+    &__line{
+        background-color: variables.$primary;
+        height: 6px;
+        width: 100%;
+    }
+
+    
+}
+
 .display-none{
     display: none;
 }
