@@ -82,9 +82,19 @@
     grid-area: hotdog;
 }
 
-.header-row-2{
+.hotdog-retour{
+    display: none;
+    grid-area: hotdog;
+}
+
+/*.header-row-2{
     display: flex;
     justify-content: space-around;
+}*/
+
+.nav-menu{
+    display: none;
+    grid-template-columns: auto auto auto;
 }
 
 @media screen and (min-width: 834px) {
@@ -126,6 +136,10 @@
 
     .hotdog{
         display: none;
+    }
+
+    .nav-menu{
+        display: grid;
     }
 }
 
@@ -178,6 +192,10 @@
         display: none;
     }
 
+    .nav-menu{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
     
 }
   
