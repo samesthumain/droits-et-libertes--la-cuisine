@@ -385,6 +385,13 @@ body {
 /*.main{
     margin: 0 15px;
 }*/
+.slogan-principale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
 .divider {
   display: flex;
   justify-content: flex-start;
