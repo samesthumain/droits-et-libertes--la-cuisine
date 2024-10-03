@@ -458,6 +458,13 @@ body {
   width: 100%;
 }
 
+.swiper .swiper-button-prev {
+  color: black;
+}
+.swiper .swiper-button-next {
+  color: black;
+}
+
 .nouvelles-title {
   background-color: #EDFA59;
   text-decoration: underline;

@@ -1,6 +1,6 @@
 
 
-
+//navbar code
 let hotdog = document.querySelector(".hotdog");
 let hotdogRetour = document.querySelector(".hotdog-retour")
 let menu = document.querySelector(".nav-menu");
@@ -19,3 +19,24 @@ hotdogRetour.addEventListener("click", function(){
     hotdogRetour.setAttribute("style", "display: none");
     console.log("hot");
 })
+
+
+//swipper code
+const swiper = ('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+  });
+  

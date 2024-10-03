@@ -93,6 +93,15 @@ body{
     
 }
 
+.swiper{
+    .swiper-button-prev{
+        color: black;
+    }
+    .swiper-button-next{
+        color: black;
+    }
+}
+
 .nouvelles-title{
     background-color: variables.$secondary;
     text-decoration: underline;
