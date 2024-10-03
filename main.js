@@ -1,3 +1,6 @@
+
+
+
 let hotdog = document.querySelector(".hotdog");
 let hotdogRetour = document.querySelector(".hotdog-retour")
 let menu = document.querySelector(".nav-menu");

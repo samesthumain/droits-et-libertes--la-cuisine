@@ -9,7 +9,10 @@
       href="/sources/medias/image/logo_small_favicon.png"
       type="image/x-icon"
     />
-
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
@@ -144,29 +147,35 @@
         <div class="divider__line"></div>
       </div>
 
-      <!--slider-->
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <img
-            src="/sources/medias/image/131524175_cropped.jpg"
-            style="width: 100%"
-          />
-        </div>
+     <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <img src="sources/medias/image/image_banniere_campagne_ripostons_au_plan_sante_20241001-793x396.png">
+    </div>
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br />
+    <div class="swiper-slide">
+      <img src="sources/medias/image/page_web_accueil_financement_ldl_20240909.png">
+    </div>
 
-      <!-- The dots/circles -->
-      <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
+    <div class="swiper-slide">
+      <img src="sources/medias/image/qtq80-r0tjkc.jpeg">
+    </div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
 
       <div class="content">
 
@@ -316,5 +325,6 @@
     </div>
 
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
