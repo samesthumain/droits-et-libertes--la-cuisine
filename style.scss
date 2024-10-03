@@ -310,31 +310,7 @@ body{
 
 @media screen and (min-width: 1440px) {
 
-    .nouvelles-card-container{
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-        justify-content: center;
-        align-items: center;
-
-        gap: 30px;
     
-        .nouvelle-card{
-            width: 30%;
-            background: rgb(250,118,89);
-            background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
-            img{
-                width: 30%;
-                border-bottom: black solid 1px;
-            }
-    
-            p{
-                text-transform: uppercase;
-            }
-            
-        }
-       
-    }
 
 
     .container-temoignage{
