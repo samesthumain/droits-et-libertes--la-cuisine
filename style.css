@@ -211,8 +211,8 @@
   color: #ffffff;
   font-family: "Jockey One", sans-serif;
   font-size: 24px;
-  display: flex;
-  justify-content: space-around;
+  /*display: flex;
+  justify-content: space-around;*/
   margin: 5px;
   border-radius: 15px;
 }
@@ -309,9 +309,9 @@
     color: #000000;
     font-family: "Jockey One", sans-serif;
     font-size: 24px;
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;*/
     margin: 5px;
   }
   .full-header .main-navbar .menu-title {
