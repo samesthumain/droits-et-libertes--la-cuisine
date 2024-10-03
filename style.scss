@@ -94,6 +94,8 @@ body{
 .nouvelles-title{
     background-color: variables.$secondary;
     text-decoration: underline;
+
+    margin-left: 20px;
 }
 
 .nouvelles-card-container{
@@ -124,6 +126,8 @@ body{
 .nos-luttes-title{
     background-color: variables.$secondary;
     text-decoration: underline;
+
+    margin-left: 20px;
 }
 
 .nos-luttes-list{
@@ -139,12 +143,19 @@ body{
 
     background: rgb(250,118,89);
     background: linear-gradient(90deg, rgba(250,118,89,1) 0%, rgba(255,255,255,0) 29%);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
     }
 }
 
 .temoignages-title{
     background-color: variables.$secondary;
     text-decoration: underline;
+
+    margin-left: 20px;
 }
 
 
@@ -169,7 +180,7 @@ body{
             font-size: 30px;
             text-transform: uppercase;
             background: rgb(250,118,89);
-            background: linear-gradient(90deg, rgba(250,118,89,1) 0%, rgba(255,255,255,0) 29%);
+            background: linear-gradient(121deg, rgba(250,118,89,1) 0%, rgba(252,160,140,1) 61%, rgba(255,255,255,1) 100%); 
         }
         p{
             text-transform: uppercase;
@@ -207,6 +218,11 @@ body{
     padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.container-social-media{
+    display: flex;
+    flex-wrap:wrap;
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
@@ -254,6 +270,12 @@ body{
 }
 
 @media screen and (min-width: 1440px) {
+
+    .container-temoignage{
+        display: flex;
+        flex-direction: row;
+    }
+
     .card{
         display:flex;
         flex-direction: row;
@@ -262,20 +284,23 @@ body{
         margin-bottom: 30px;
 
         img{
-            width: 100px;
+            width: 200px;
             border-radius: 50%;
             border-style: solid;
             border-color: black;
             border-width: 1px;
-            height: 100px;
+            height: 200px;
+
+            margin-left: 20px;
         }
 
         .container{
             h4{
     
                 font-family: "Jockey One", sans-serif;
-                font-size: 20px;
+                font-size: 30px;
                 text-transform: uppercase;
+                margin-left: 20px;
             }
             p{
                 text-transform: uppercase;
@@ -295,6 +320,28 @@ body{
     p{
         display: flex;
         justify-content: center;
+    }
+}
+
+.nos-luttes-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    button{
+    text-align: left;
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+
+    background: rgb(250,118,89);
+    background: linear-gradient(170deg, #fa7659 0%, rgba(255,255,255,0) 50%);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
     }
 }
 }
