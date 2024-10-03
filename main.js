@@ -1,4 +1,7 @@
-
+swiper.update();
+import Swiper from 'swiper';
+import { Swiper, Parallax, Navigation} from 'swiper'
+Swiper.use([ Parallax, Navigation ])
 
 //navbar code
 let hotdog = document.querySelector(".hotdog");
@@ -24,8 +27,8 @@ hotdogRetour.addEventListener("click", function(){
 //swipper code
 const swiper = ('.swiper', {
     // Optional parameters
-    direction: 'vertical',
-    loop: true,
+    
+   
   
     // If we need pagination
     pagination: {

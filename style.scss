@@ -75,6 +75,7 @@ body{
 
 //MAIN
 
+
 .divider{
     display: flex;
     justify-content: flex-start;
@@ -94,6 +95,8 @@ body{
 }
 
 .swiper{
+    width: 100%;
+
     .swiper-button-prev{
         color: black;
     }
@@ -117,6 +120,7 @@ body{
 
 
 //stuff que j'ai fais puis qu je vais deplacer ailleurs :3
+
 .slideshow-container{
     display: flex;
 
