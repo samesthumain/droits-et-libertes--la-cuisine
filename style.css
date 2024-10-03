@@ -18,6 +18,12 @@
 /*.donationici{
     margin: 8px 0;
 }*/
+.nouvelle-card .image-nouvelle--1 {
+  background-image: url("/sources/medias/image/img_police.jpg");
+  height: 100px;
+  width: 160px;
+}
+
 .footer-container {
   background-color: #B20838;
   color: #ffffff;

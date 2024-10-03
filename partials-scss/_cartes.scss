@@ -1,5 +1,16 @@
 @use 'variables';
 
+.nouvelle-card{
+    
+    
+
+    .image-nouvelle--1{
+        background-image: url("/sources/medias/image/img_police.jpg");
+        height: 100px;
+        width: 160px;
+    }
+}
+
 @media screen and (min-width: 834px) and (max-width:1439px) {
     
 }
