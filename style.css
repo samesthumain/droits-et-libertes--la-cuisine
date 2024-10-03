@@ -214,10 +214,11 @@
   display: flex;
   justify-content: space-around;
   margin: 5px;
+  border-radius: 15px;
 }
 .main-navbar .menu-title {
   margin: 10px;
-  color: #B20838;
+  color: #ffffff;
   text-decoration: none;
 }
 

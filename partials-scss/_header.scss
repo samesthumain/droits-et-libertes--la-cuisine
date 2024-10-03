@@ -75,11 +75,13 @@
     display: flex;
     justify-content: space-around;
     margin: 5px;
+
+    border-radius: 15px;
     
 
     .menu-title{
         margin: 10px;
-        color: variables.$primary;
+        color: variables.$blanc;
         text-decoration: none;
     }
 }
