@@ -71,6 +71,8 @@ body{
     align-items: center;
     text-align: center;
     margin: 20px;
+
+    font-size: 28px;
 }
 
 //MAIN
@@ -146,16 +148,17 @@ body{
 
     gap: 10px;
 
-    button{
+    a {
     text-align: left;
     font-family: "Jockey One", sans-serif;
     font-size: 30px;
 
+    
     background: rgb(250,118,89);
-    background: linear-gradient(90deg, rgba(250,118,89,1) 0%, rgba(255,255,255,0) 29%);
-    border-style: solid;
-    border-color: black;
+    background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
+
     border-width: 1px;
+
     margin-left: 20px;
     margin-right: 20px;
     }
@@ -270,6 +273,16 @@ body{
 }
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
+
+    .slogan-principale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    
+        font-size: 40px;
+    }
     
 
     .card{
@@ -314,7 +327,15 @@ body{
 
 @media screen and (min-width: 1440px) {
 
+    .slogan-principale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
     
+        font-size: 64px;
+    }
 
 
     .container-temoignage{
@@ -377,18 +398,17 @@ body{
 
     gap: 10px;
 
-    button{
+    a {
     text-align: left;
     font-family: "Jockey One", sans-serif;
     font-size: 30px;
 
     background: rgb(250,118,89);
-    background: linear-gradient(170deg, #fa7659 0%, rgba(255,255,255,0) 50%);
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
+
     margin-left: 20px;
     margin-right: 20px;
+
     text-align: center;
     }
 }

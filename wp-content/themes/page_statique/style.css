@@ -462,6 +462,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 20px;
+  font-size: 28px;
 }
 
 .divider {
@@ -489,7 +490,7 @@ body {
 }
 
 .nouvelles-title {
-  background-color: #EDFA59;
+  background-color: #f7ff9b;
   text-decoration: underline;
 }
 
@@ -511,7 +512,7 @@ body {
 }
 
 .nos-luttes-title {
-  background-color: #EDFA59;
+  background-color: #f7ff9b;
   text-decoration: underline;
 }
 
@@ -520,21 +521,19 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-.nos-luttes-list button {
+.nos-luttes-list a {
   text-align: left;
   font-family: "Jockey One", sans-serif;
   font-size: 30px;
   background: rgb(250, 118, 89);
-  background: linear-gradient(90deg, rgb(250, 118, 89) 0%, rgba(255, 255, 255, 0) 29%);
-  border-style: solid;
-  border-color: black;
+  background: linear-gradient(98deg, rgba(250, 118, 89, 0.8799720572) 0%, rgb(255, 243, 240) 100%, rgb(255, 255, 255) 100%);
   border-width: 1px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .temoignages-title {
-  background-color: #EDFA59;
+  background-color: #f7ff9b;
   text-decoration: underline;
 }
 
@@ -573,7 +572,7 @@ body {
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #EDFA59;
+  background-color: #f7ff9b;
 }
 
 .donationici {
@@ -620,6 +619,14 @@ body {
 }
 
 @media screen and (min-width: 834px) and (max-width: 1439px) {
+  .slogan-principale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+  }
   .card {
     display: flex;
     flex-direction: row;
@@ -653,6 +660,14 @@ body {
   }
 }
 @media screen and (min-width: 1440px) {
+  .slogan-principale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 64px;
+  }
   .container-temoignage {
     display: flex;
     flex-direction: row;
@@ -700,15 +715,12 @@ body {
     flex-direction: column;
     gap: 10px;
   }
-  .nos-luttes-list button {
+  .nos-luttes-list a {
     text-align: left;
     font-family: "Jockey One", sans-serif;
     font-size: 30px;
     background: rgb(250, 118, 89);
-    background: linear-gradient(170deg, #fa7659 0%, rgba(255, 255, 255, 0) 50%);
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    background: linear-gradient(98deg, rgba(250, 118, 89, 0.8799720572) 0%, rgb(255, 243, 240) 100%, rgb(255, 255, 255) 100%);
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
