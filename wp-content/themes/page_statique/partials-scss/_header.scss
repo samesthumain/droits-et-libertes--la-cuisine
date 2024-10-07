@@ -45,25 +45,48 @@
 
         grid-area: langue;
     }
+
+    .hotdog{
+        &__toggle{
+            grid-area: hotdog;
+            width: 50px;
+        }
+        
+        &__retour{
+            grid-area: hotdog;
+            width: 50px;
+        }
+    }
     
 }
 
-.container-searchbar{
+.searchbar{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    grid-area: searchbar;
 
-.search{
-    background-color: rgb(221, 221, 221);
-    border-radius: 20px;
-    border-style: none;
-    width: 60%;
-    height: 30px;
-}
+    &__search{
+        background-color: rgb(221, 221, 221);
+        border-radius: 20px;
+        border-style: none;
+        width: 60%;
+        height: 30px;
+    }
 
-.full-header{
-    background-color: variables.$blanc;
+    &__loupe{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25%;
+        border-style: none;
+        background-color: white;
+    
+        &__image{
+            width: 20px;
+        }
+    }
 }
 
 .main-navbar{
@@ -85,31 +108,7 @@
     }
 }
 
-.container-searchbar{
-    grid-area: searchbar;
-}
 
-.hotdog-container{
-    display: flex;
-    justify-content: center;
-}
-
-.hotdog{
-    grid-area: hotdog;
-    width: 50px;
-}
-
-.hotdog-retour{
-    grid-area: hotdog;
-    width: 50px;
-}
-
-
-
-/*.header-row-2{
-    display: flex;
-    justify-content: space-around;
-}*/
 
 .nav-menu{
     grid-template-columns: auto auto auto;
@@ -120,21 +119,7 @@
     justify-content: center;
 }
 
-.loupe{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25%;
-    /*border: 5px solid variables.$primary;
-    background: none;*/
-    border-style: none;
-    background-color: white;
-
-    &__image{
-        width: 20px;
-    }
-}
 
 .divider.divider-header{
     display: none;
@@ -157,7 +142,7 @@
 @media screen and (min-width: 834px) {
     
 
-        header{
+        .header{
             background-color: variables.$blanc;
             grid-template-areas: 
     "logo donnez searchbar langue";
@@ -176,6 +161,15 @@
                 background-color: variables.$blanc;
                 color:variables.$noir;
                 /*margin-top: 20px;*/
+            }
+
+            .hotdog{
+                &__toggle{
+                    display: none;
+                }
+                &__retour{
+                    display: none;
+                }
             }
         }
 
@@ -197,13 +191,9 @@
         }
 
 
-    .hotdog{
-        display: none;
-    }
+    
 
-    .hotdog-retour{
-        display: none;
-    }
+    
 
     .nav-menu{
         display: grid;
@@ -217,7 +207,7 @@
 @media screen and (min-width: 1440px) {
     
 
-        header{
+        .header{
             background-color: variables.$blanc;
             grid-template-areas: 
     "full-logo donnez searchbar searchbar langue";
@@ -245,6 +235,15 @@
                 color:variables.$noir;
                 /*margin-top: 20px;*/
             }
+
+            .hotdog{
+                &__toggle{
+                    display: none;
+                }
+                &__retour{
+                    display: none;
+                }
+            }
         }
 
         .main-navbar{
@@ -256,12 +255,6 @@
             
             
         }
-
- 
-
-    .hotdog{
-        display: none;
-    }
 
     .nav-menu{
         display: grid;

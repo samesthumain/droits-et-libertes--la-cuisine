@@ -8,8 +8,8 @@ xBanniere.addEventListener("click", function(){
 })
 
 //navbar code
-let hotdog = document.querySelector(".hotdog");
-let hotdogRetour = document.querySelector(".hotdog-retour");
+let hotdog = document.querySelector(".hotdog__toggle");
+let hotdogRetour = document.querySelector(".hotdog__retour");
 let menu = document.querySelector(".nav-menu");
 
 hotdog.addEventListener("click", function(){
