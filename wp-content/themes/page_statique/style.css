@@ -6,6 +6,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .banniere img {
   height: 16px;
@@ -35,6 +36,7 @@
   width: 100%;
   background: rgb(250, 118, 89);
   background: linear-gradient(180deg, rgb(250, 118, 89) 30%, rgb(255, 255, 255) 100%);
+  margin: 10px 0;
 }
 .nouvelles-card-container .nouvelle-card img {
   width: 100%;
@@ -76,6 +78,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 25%;
+    margin: 0;
   }
   .nouvelles-card-container .nouvelle-card img {
     width: 100%;
@@ -456,13 +459,20 @@ body {
 /*.main{
     margin: 0 15px;
 }*/
-.slogan-principale {
+.slogan-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+.slogan-container .slogan-principale {
+  align-self: flex-start;
   margin: 20px;
   font-size: 28px;
+}
+
+.souligne {
+  background-color: #f7ff9b;
 }
 
 .divider {
@@ -490,8 +500,9 @@ body {
 }
 
 .nouvelles-title {
-  background-color: #f7ff9b;
-  text-decoration: underline;
+  border-bottom-color: #B20838;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
 }
 
 .content {
@@ -512,8 +523,9 @@ body {
 }
 
 .nos-luttes-title {
-  background-color: #f7ff9b;
-  text-decoration: underline;
+  border-bottom-color: #B20838;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
 }
 
 .nos-luttes-list {
@@ -527,14 +539,22 @@ body {
   font-size: 30px;
   background: rgb(250, 118, 89);
   background: linear-gradient(98deg, rgba(250, 118, 89, 0.8799720572) 0%, rgb(255, 243, 240) 100%, rgb(255, 255, 255) 100%);
-  border-width: 1px;
   margin-left: 20px;
   margin-right: 20px;
 }
+.nos-luttes-list a:hover {
+  background: rgb(230, 250, 89);
+  background: linear-gradient(98deg, rgba(230, 250, 89, 0.8799720572) 0%, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+}
+.nos-luttes-list a:visited {
+  background: rgb(156, 44, 44);
+  background: linear-gradient(98deg, rgb(156, 44, 44) 0%, rgb(255, 177, 98) 100%);
+}
 
 .temoignages-title {
-  background-color: #f7ff9b;
-  text-decoration: underline;
+  border-bottom-color: #B20838;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
 }
 
 .card {
