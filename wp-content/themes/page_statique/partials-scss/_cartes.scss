@@ -12,6 +12,7 @@
         width: 100%;
         background: rgb(250,118,89);
         background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
+        margin: 10px 0;
         img{
             width: 100%;
             border-bottom: black solid 1px;
@@ -62,6 +63,7 @@
             flex-direction: column;
             justify-content: flex-start;
             width: 25%;
+            margin: 0;
             img{
                 width: 100%;
             }
