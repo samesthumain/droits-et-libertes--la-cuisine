@@ -3,6 +3,14 @@ import Swiper from 'swiper';
 import { Swiper, Parallax, Navigation} from 'swiper'
 Swiper.use([ Parallax, Navigation ])
 
+//code bannière
+let xBanniere = document.querySelector(".x-banniere")
+let banniere = document.querySelector(".banniere")
+
+xBanniere.addEventListener("click", function(){
+  banniere.classList.add("display-none")
+})
+
 //navbar code
 let hotdog = document.querySelector(".hotdog");
 let hotdogRetour = document.querySelector(".hotdog-retour")
