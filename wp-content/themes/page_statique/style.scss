@@ -64,15 +64,22 @@ body{
 
 //HEADER
 
-
-.slogan-principale{
+.slogan-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 20px;
 
-    font-size: 28px;
+    .slogan-principale{
+        align-self: flex-start;
+        margin: 20px;
+        font-size: 28px;
+
+    }
+}
+
+.souligne{
+    background-color: variables.$secondary;
 }
 
 //MAIN
@@ -108,8 +115,11 @@ body{
 }
 
 .nouvelles-title{
-    background-color: variables.$secondary;
-    text-decoration: underline;
+
+    
+    border-bottom-color: variables.$primary;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
 }
 
 .content{
@@ -138,8 +148,9 @@ body{
 }
 
 .nos-luttes-title{
-    background-color: variables.$secondary;
-    text-decoration: underline;
+    border-bottom-color: variables.$primary;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
 }
 
 .nos-luttes-list{
@@ -153,20 +164,31 @@ body{
     font-family: "Jockey One", sans-serif;
     font-size: 30px;
 
-    
     background: rgb(250,118,89);
     background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
-
-    border-width: 1px;
 
     margin-left: 20px;
     margin-right: 20px;
     }
+
+    a:hover{
+        background: rgb(230,250,89);
+        background: linear-gradient(98deg, rgba(230,250,89,0.8799720571822479) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%); 
+    }
+
+    a:visited{
+        background: rgb(156,44,44);
+        background: linear-gradient(98deg, rgba(156,44,44,1) 0%, rgba(255,177,98,1) 100%); 
+        
+    }
 }
 
 .temoignages-title{
-    background-color: variables.$secondary;
-    text-decoration: underline;
+
+    
+    border-bottom-color: variables.$primary;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
 }
 
 
