@@ -59,8 +59,8 @@
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
 
-.footer-container{
-    .footer-first{
+.footer{
+    &__first{
         p{
             background-color: variables.$primary;
             border-color: variables.$blanc;
@@ -73,7 +73,7 @@
         }
     }
 
-    .footer-secondary{
+    &__secondary{
         display:flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -90,9 +90,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .footer-container{
+    .footer{
 
-        .footer-first{
+        &__first{
             p{
                 background-color: variables.$primary;
                 border-color: variables.$blanc;
@@ -108,7 +108,7 @@
             }
         }
 
-        .footer-secondary{
+        &__secondary{
             display: flex;
             justify-content: center;
             margin-left: 30px;
