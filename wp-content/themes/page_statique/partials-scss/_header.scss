@@ -41,6 +41,18 @@
 
         grid-area: langue;
     }
+
+    .hotdog{
+        &__toggle{
+            grid-area: hotdog;
+            width: 50px;
+        }
+        
+        &__retour{
+            grid-area: hotdog;
+            width: 50px;
+        }
+    }
     
 }
 
@@ -90,22 +102,7 @@
     justify-content: center;
 }
 
-.hotdog{
-    grid-area: hotdog;
-    width: 50px;
-}
 
-.hotdog-retour{
-    grid-area: hotdog;
-    width: 50px;
-}
-
-
-
-/*.header-row-2{
-    display: flex;
-    justify-content: space-around;
-}*/
 
 .nav-menu{
     grid-template-columns: auto auto auto;
@@ -153,7 +150,7 @@
 @media screen and (min-width: 834px) {
     
 
-        header{
+        .header{
             background-color: variables.$blanc;
             grid-template-areas: 
     "logo donnez searchbar langue";
@@ -213,7 +210,7 @@
 @media screen and (min-width: 1440px) {
     
 
-        header{
+        .header{
             background-color: variables.$blanc;
             grid-template-areas: 
     "full-logo donnez searchbar searchbar langue";
