@@ -1,16 +1,15 @@
 /*
-wordpress/*
 
 !.gitignore
 
-!wordpress/
-!wordpress/wp-content/
-!wordpress/wp-content/*
-!wordpress/wp-content/*/*
-!wordpress/wp-content/*/*/*
-!wordpress/wp-content/*/*/*/*
-!wordpress/wp-content/*/*/*/*/*
-!wordpress/wp-content/*/*/*/*/*/*
-!wordpress/wp-content/*/*/*/*/*/*/*
-!wordpress/wp-content/*/*/*/*/*/*/*/*
-!wordpress/wp-content/*/*/*/*/*/*/*/*/*
+
+!wp-content/
+!wp-content/*
+!wp-content/*/*
+!wp-content/*/*/*
+!wp-content/*/*/*/*
+!wp-content/*/*/*/*/*
+!wp-content/*/*/*/*/*/*
+!wp-content/*/*/*/*/*/*/*
+!wp-content/*/*/*/*/*/*/*/*
+!wp-content/*/*/*/*/*/*/*/*/*
