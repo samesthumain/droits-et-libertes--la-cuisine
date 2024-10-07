@@ -1,7 +1,7 @@
 @use 'variables';
 
 
-.main-header{
+.header{
     background-color: variables.$blanc;
     text-align: center;
     display: grid;
@@ -10,17 +10,17 @@
     "hotdog searchbar searchbar";
 
 
-    .logo{
+    &__logo{
         margin-bottom: none;
         grid-area: logo;
     }
 
-    .logo--full{
+    &__logo--full{
         grid-area: full-logo;
         display: none;
     }
 
-    .donation{
+    &__donation{
       background-color: variables.$primary;
       color: variables.$blanc;
       font-family: "Jockey One", sans-serif;
@@ -29,13 +29,9 @@
       border-style: none;
 
       grid-area: donnez;
-      /*padding-right: 30px;
-      padding-left: 30px;
-      margin-top: 30px;*/
-      
     }
 
-    .bouton-langue{
+    &__bouton-langue{
         border: none;
         font-family: "Jockey One", sans-serif;
         font-size: 35px;
@@ -44,7 +40,6 @@
         color:variables.$noir;
 
         grid-area: langue;
-        /*margin-top: 20px;*/
     }
     
 }
@@ -158,18 +153,18 @@
 @media screen and (min-width: 834px) {
     
 
-        .main-header{
+        header{
             background-color: variables.$blanc;
             grid-template-areas: 
     "logo donnez searchbar langue";
 
-            .donation{
+            &__donation{
                 margin: none;
                 padding-left: 30px;
                 padding-right: 30px;
             }
 
-            .bouton-langue{
+            &__bouton-langue{
                 border: none;
                 font-family: "Jockey One", sans-serif;
                 font-size: 25px;
@@ -218,18 +213,26 @@
 @media screen and (min-width: 1440px) {
     
 
-        .main-header{
+        header{
             background-color: variables.$blanc;
             grid-template-areas: 
     "full-logo donnez searchbar searchbar langue";
             
-            .donation{
+            &__logo{
+                display: none;
+            }
+
+            &__logo--full{
+                display: block;
+            }
+    
+            &__donation{
                 margin: none;
                 padding-left: 30px;
                 padding-right: 30px;
             }
 
-            .bouton-langue{
+            &__bouton-langue{
                 border: none;
                 font-family: "Jockey One", sans-serif;
                 font-size: 25px;
@@ -237,14 +240,6 @@
                 background-color: variables.$blanc;
                 color:variables.$noir;
                 /*margin-top: 20px;*/
-            }
-
-            .logo{
-                display: none;
-            }
-        
-            .logo--full{
-                display: block;
             }
         }
 
