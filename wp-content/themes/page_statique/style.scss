@@ -65,6 +65,8 @@ body{
 
 //HEADER
 
+//MAIN
+
 .slogan-container{
     display: flex;
     justify-content: space-around;
@@ -83,7 +85,6 @@ body{
     background-color: variables.$secondary;
 }
 
-//MAIN
 
 
 .divider{
@@ -260,53 +261,8 @@ body{
 .donationici:hover{
     background: color.adjust(variables.$primary, $lightness: 20%); 
 }
-
-
-.footer-first{
-    display: flex;
-    flex-direction: row;
-    flex-basis: 0;
-    justify-content: flex-start
-
-}
-
-.info-container{
-    .donation{
-        background-color: variables.$primary;
-    }
-    .donation:hover{
-        background: color.adjust(variables.$primary, $lightness: 20%); 
-    }
-}
-
-.container-social-media{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-
-
-    img{
-        display: block;
-        width: 100px;
-    }
-
-    .facebook{
-        margin-left: auto;
-        margin-right: none;
-    }
-
-    .twitter{
-        margin-left: auto;
-        margin-right: none;
-    }
-
-    .instagram{
-        margin-left: none;
-        margin-right: auto;
-    }
     
-}
+//}
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
 
@@ -451,12 +407,4 @@ body{
     }
 }
 
-.footer-first{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-basis: 0;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
 }

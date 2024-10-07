@@ -1,4 +1,5 @@
 @use 'variables';
+@use "sass:color";
 
 .footer{
     background-color: variables.$primary;
@@ -6,7 +7,40 @@
 
     &__first{
         color: variables.$blanc;
+
+        //
+        display: flex;
+        flex-direction: row;
+        flex-basis: 0;
+        justify-content: center;
+        align-items: center;
     
+        //social media
+        .container-social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        img{
+            display: block;
+            width: 100px;
+        }
+    
+        .facebook{
+            margin-left: auto;
+            margin-right: none;
+        }
+    
+        .twitter{
+            margin-left: auto;
+            margin-right: none;
+        }
+    
+        .instagram{
+            margin-left: none;
+            margin-right: auto;
+        }
+        }
+
         p{
             font-family: "Inter";
             font-size: 12px;
@@ -24,6 +58,10 @@
             border-width: 1px;
             padding: 10px;
             margin: 10px;
+        }
+        //
+        .donation:hover{
+            background: color.adjust(variables.$primary, $lightness: 20%); 
         }
     }
 
@@ -61,6 +99,11 @@
 
 .footer{
     &__first{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 0;
+        justify-content: center;
+        align-items: center;
         p{
             background-color: variables.$primary;
             border-color: variables.$blanc;
@@ -93,6 +136,12 @@
     .footer{
 
         &__first{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-basis: 0;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
             p{
                 background-color: variables.$primary;
                 border-color: variables.$blanc;
