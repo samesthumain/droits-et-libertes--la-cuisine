@@ -1,7 +1,3 @@
-swiper.update();
-import Swiper from 'swiper';
-import { Swiper, Parallax, Navigation} from 'swiper'
-Swiper.use([ Parallax, Navigation ])
 
 //code bannière
 let xBanniere = document.querySelector(".x-banniere")
@@ -33,21 +29,4 @@ hotdogRetour.addEventListener("click", function(){
 
 
 //swipper code
-const swiper = ('.swiper', {
-    // Optional parameters
-    
-   
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
 
-  });
-  

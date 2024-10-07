@@ -1,5 +1,5 @@
 @use 'variables';
-
+@use "sass:color";
 
 .header{
     background-color: variables.$blanc;
@@ -29,6 +29,10 @@
       border-style: none;
 
       grid-area: donnez;
+    }
+
+    &__donation:hover{
+        background: color.adjust(variables.$primary, $lightness: 20%);
     }
 
     &__bouton-langue{
