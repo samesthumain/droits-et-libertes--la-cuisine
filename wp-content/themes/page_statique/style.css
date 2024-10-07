@@ -272,7 +272,6 @@
 }
 
 .hotdog-retour {
-  display: none;
   grid-area: hotdog;
   width: 50px;
 }
@@ -282,7 +281,6 @@
     justify-content: space-around;
 }*/
 .nav-menu {
-  display: none;
   grid-template-columns: auto auto auto;
 }
 
@@ -309,17 +307,18 @@
   display: none;
 }
 
-/*.display-none{
-    display: none;
+.display-none {
+  display: none;
 }
 
-.display-grid{
-    display: grid;
+.display-grid {
+  display: grid;
 }
 
-.display-block{
-    display: inline;
-}*/
+.display-block {
+  display: inline;
+}
+
 @media screen and (min-width: 834px) {
   .full-header .main-header {
     background-color: #ffffff;
@@ -355,6 +354,9 @@
     text-decoration: none;
   }
   .hotdog {
+    display: none;
+  }
+  .hotdog-retour {
     display: none;
   }
   .nav-menu {

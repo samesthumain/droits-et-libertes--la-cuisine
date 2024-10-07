@@ -9,18 +9,18 @@ let hotdogRetour = document.querySelector(".hotdog-retour")
 let menu = document.querySelector(".nav-menu");
 
 hotdog.addEventListener("click", function(){
-    //menu.classList.remove("display-none")
-    //menu.classList.add("display-grid")
-    menu.setAttribute("style", "display: grid");
-    hotdog.setAttribute("style", "display: none");
-    hotdogRetour.setAttribute("style", "display: block");
+    menu.classList.remove("display-none")
+    hotdogRetour.classList.remove("display-none")
+    menu.classList.add("display-grid")
+    hotdog.classList.remove("display-block")
+    hotdog.classList.add("display-none")
 })
 
 hotdogRetour.addEventListener("click", function(){
-    menu.setAttribute("style", "display: none");
-    hotdog.setAttribute("style", "display: block");
-    hotdogRetour.setAttribute("style", "display: none");
-    console.log("hot");
+    menu.classList.add("display-none")
+    menu.classList.remove("display-grid")
+    hotdog.classList.add("display-block")
+    hotdogRetour.classList.add("display-none")
 })
 
 
