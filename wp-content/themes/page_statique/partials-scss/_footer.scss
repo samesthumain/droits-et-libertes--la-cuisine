@@ -1,10 +1,10 @@
 @use 'variables';
 
-.footer-container{
+.footer{
     background-color: variables.$primary;
     color: variables.$blanc;
 
-    .footer-first{
+    &__first{
         color: variables.$blanc;
     
         p{
@@ -27,17 +27,8 @@
         }
     }
 
-    .footer-primary{
-        .donation{
-            background-color: variables.$primary;
-            color: variables.$blanc;
-        
-            border-color: variables.$blanc;
-            border-style: solid;
-            }
-    }
 
-    .footer-secondary{
+    &__secondary{
         display:flex;
         flex-wrap: wrap;
         img{
