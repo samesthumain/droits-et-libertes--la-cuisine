@@ -1,0 +1,49 @@
+@use 'partials-scss/variables';
+@use "sass:color";
+
+.services-container{
+    .services-slogan {
+        
+    }
+    .services-description {
+        background-color: variables.$primary;
+        color: variables.$blanc;
+
+
+    }
+    .liste-luttes{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 10px;
+
+        .luttes-box{
+            background: rgb(250,118,89);
+            background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%); 
+
+            color: black;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 834px) and (max-width:1439px) {
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .liste-luttes{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+
+        .luttes-box{
+            border-bottom-color: black;
+            border-bottom-width: 10px;
+            border-bottom-style: solid;
+        }
+    }
+}
