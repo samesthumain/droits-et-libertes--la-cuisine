@@ -107,7 +107,10 @@ body{
 
 .swiper{
     width: 100%;
-
+    img{
+        width:auto;
+        object-fit: cover;
+    }
     .swiper-button-prev{
         color: black;
     }
