@@ -1,6 +1,32 @@
 @use 'partials-scss/variables';
 @use "sass:color";
 
+//scss pour la page qui represente tout les nouvelles
+
+//scss pour la page qui represente une nouvelle
+.nouvelle-article-box{
+    .nouvelle-article-titre {
+        background-color: variables.$primary;
+        color: variables.$blanc;
+    }
+    .nouvelle-article-docu{
+        background-color: rgb(255, 210, 194);
+        color: black;
+        text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    }
+    .nouvelle-article-summary{
+        background-color: variables.$primary;
+        color: variables.$blanc;
+    }
+    .nouvelle-article-desc{
+        color: variables.$noir;
+        .nouvelle-article-sources{
+            color: red;
+            background-color: rgb(255, 222, 175);
+        }
+    }
+}
+
 @media screen and (min-width: 834px) and (max-width:1439px) {
     
 }
