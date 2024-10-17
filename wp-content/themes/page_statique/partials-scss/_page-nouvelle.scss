@@ -8,7 +8,24 @@
     .nouvelle-article-titre {
         background-color: variables.$primary;
         color: variables.$blanc;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: variables.$blanc;
+            align-self: center;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
     }
+
+    .nouvelle-article-image{
+        width: 500px;
+        background-size: cover;
+    }
+
     .nouvelle-article-docu{
         background-color: rgb(255, 210, 194);
         color: black;
@@ -23,14 +40,61 @@
         .nouvelle-article-sources{
             color: red;
             background-color: rgb(255, 222, 175);
+            p{
+                color: red;
+            }
         }
     }
 }
+
+
+
+
+
+
+
+
+.nouvelle-fleche-box{
+    background-color: variables.$primary;
+    color: variables.$blanc;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .fleche-precedante{
+        color: variables.$blanc;
+        p{
+            color: variables.$blanc;
+        }
+
+        img{
+            width:50px;
+        }
+    }
+
+    .fleche-next{
+        color: variables.$blanc;
+
+        p{
+            color: variables.$blanc;
+        }
+
+        img{
+            width:50px;
+        }
+    }
+}
+
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
     
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .nouvelle-fleche-box{
+        flex-direction: row;
+    }
+   
 }

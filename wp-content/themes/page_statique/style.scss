@@ -8,6 +8,7 @@
 @use 'partials-scss/mixins';
 @use 'partials-scss/page-nouvelle';
 @use 'partials-scss/variables';
+@use 'partials-scss/page-services';
 @use "sass:color";
 
 
@@ -107,8 +108,9 @@ body{
 
 .swiper{
     width: 100%;
+    align-items: center;
     img{
-        width:auto;
+        width: 100%;
         object-fit: cover;
     }
     .swiper-button-prev{

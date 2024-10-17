@@ -106,6 +106,10 @@
         color: variables.$blanc;
         text-decoration: none;
     }
+    .menu-title:hover{
+        background-color: variables.$primary;
+        color: variables.$blanc;
+    }
 }
 
 
@@ -188,6 +192,10 @@
                 color: variables.$noir;
                 text-decoration: none;
             }
+            .menu-title:hover{
+                background-color: variables.$primary;
+                color: variables.$blanc;
+            }
         }
 
 
@@ -253,7 +261,10 @@
             font-size: 24px;
            
             
-            
+            .menu-title:hover{
+                background-color: variables.$primary;
+                color: variables.$blanc;
+            }
         }
 
     .nav-menu{
