@@ -15,9 +15,10 @@
         align-items: center;
         h1{
             color: variables.$blanc;
-            align-self: center;
             margin-left: 50%;
             margin-right: 50%;
+
+            text-align: center;
         }
     }
 
@@ -30,28 +31,66 @@
         background-color: rgb(255, 210, 194);
         color: black;
         text-shadow: rgb(255, 255, 255) 1px 0 10px;
+
+        font-family: "Jockey One", sans-serif;
+        font-size: 30px;
+        text-transform: capitalize;
     }
     .nouvelle-article-summary{
         background-color: variables.$primary;
         color: variables.$blanc;
+
+        font-family: "Jockey One", sans-serif;
+        font-size: 30px;
+        text-transform: capitalize;
     }
     .nouvelle-article-desc{
         color: variables.$noir;
+        font-family: "Jockey One", sans-serif;
+        font-size: 24px;
+        text-transform: capitalize;
+
+        text-align: center;
+       
         .nouvelle-article-sources{
             color: red;
             background-color: rgb(255, 222, 175);
             p{
                 color: red;
+                text-align: center;
             }
         }
     }
 }
 
+.nouvelle-sharing-box{
+    background-color: rgba(255, 127, 80, 0.805);
+    h4{
+        color: variables.$blanc;
+        text-align: center;
+    }
+    .printer-logo{
+        width: 50px;
+        height: 50px;
 
+        border-top: 10px;
+        border-color: variables.$blanc;
+    }
+}
 
-
-
-
+.nouvelle-related-box{
+    h2{
+        color: variables.$primary;
+        text-align: center;
+    }
+    div{
+        background: rgb(250,118,89);
+        background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%); 
+        p{
+            color: variables.$noir;
+        }
+    }
+}
 
 
 .nouvelle-fleche-box{
@@ -93,8 +132,93 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+    .nouvelle-article-box{
+        .nouvelle-article-titre {
+            background-color: variables.$primary;
+            color: variables.$blanc;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            h1{
+                color: variables.$blanc;
+                margin-left: 0;
+                margin-right: 0;
+    
+                text-align: center;
+            }
+        }
+    
+        .nouvelle-article-image{
+            width: 500px;
+            background-size: cover;
+        }
+    
+        .nouvelle-article-docu{
+            background-color: rgb(255, 210, 194);
+            color: black;
+            text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    
+            font-family: "Jockey One", sans-serif;
+            font-size: 25px;
+            text-transform: capitalize;
+
+            text-align: start;
+            text-wrap: wrap;
+
+        }
+        .nouvelle-article-summary{
+            background-color: variables.$primary;
+            color: variables.$blanc;
+    
+            font-family: "Jockey One", sans-serif;
+            font-size: 25px;
+            text-transform: capitalize;
+        }
+        .nouvelle-article-desc{
+            color: variables.$noir;
+            font-family: "Jockey One", sans-serif;
+            font-size: 15px;
+            text-transform: capitalize;
+    
+            text-align: left;
+           
+            .nouvelle-article-sources{
+                color: red;
+                background-color: rgb(255, 222, 175);
+                p{
+                    color: red;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .nouvelle-sharing-box{
+        background-color: rgba(255, 127, 80, 0.805);
+        display:flex;
+        flex-direction: row;
+        h4{
+            font-family: "Jockey One", sans-serif;
+            font-size: 30px;
+            text-transform: capitalize;
+            color: variables.$blanc;
+            text-align: left;
+        }
+
+        .printer-logo{
+            width: 100px;
+            height: 100px;
+    
+            border-top: 0;
+        }
+    }
+
     .nouvelle-fleche-box{
         flex-direction: row;
+        
     }
    
 }
