@@ -5,26 +5,32 @@
 
 //scss pour la page qui represente une nouvelle
 .nouvelle-article-box{
+    background-color: variables.$primary;
     .nouvelle-article-titre {
-        background-color: variables.$primary;
+        background: rgb(178,8,56);
+        background: linear-gradient(180deg, rgba(178,8,56,1) 0%, rgba(112,5,35,1) 63%, rgba(92,4,29,1) 79%, rgba(55,2,17,1) 100%, rgba(28,1,9,1) 100%, rgba(0,0,0,1) 100%); 
         color: variables.$blanc;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 30px;
         h1{
             color: variables.$blanc;
             margin-left: 50%;
             margin-right: 50%;
 
             text-align: center;
+
+            font-size: 55px;
         }
     }
 
     .nouvelle-article-image{
         width: 500px;
         background-size: cover;
+        margin-bottom: 0px;
     }
 
     .nouvelle-article-docu{
@@ -34,7 +40,12 @@
 
         font-family: "Jockey One", sans-serif;
         font-size: 30px;
-        text-transform: capitalize;
+        
+
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
     .nouvelle-article-summary{
         background-color: variables.$primary;
@@ -43,14 +54,22 @@
         font-family: "Jockey One", sans-serif;
         font-size: 30px;
         text-transform: capitalize;
+        p{
+            color: variables.$blanc;
+            padding-left: 20px;
+        }
     }
     .nouvelle-article-desc{
         color: variables.$noir;
         font-family: "Jockey One", sans-serif;
-        font-size: 24px;
+        font-size: 10px;
         text-transform: capitalize;
 
         text-align: center;
+        p{
+            background-color: variables.$blanc;
+            font-size: 20px;
+        }
        
         .nouvelle-article-sources{
             color: red;
@@ -58,6 +77,7 @@
             p{
                 color: red;
                 text-align: center;
+                background-color: rgb(255, 225, 185);
             }
         }
     }
@@ -65,9 +85,18 @@
 
 .nouvelle-sharing-box{
     background-color: rgba(255, 127, 80, 0.805);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     h4{
         color: variables.$blanc;
         text-align: center;
+
+        font-family: "Jockey One", sans-serif;
+        font-size: 30px;
+        text-transform: capitalize;
     }
     .printer-logo{
         width: 50px;
@@ -79,13 +108,18 @@
 }
 
 .nouvelle-related-box{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
     h2{
         color: variables.$primary;
         text-align: center;
+        font-size: 30px;
     }
     div{
         background: rgb(250,118,89);
         background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%); 
+        padding-left: 20px;
         p{
             color: variables.$noir;
         }
