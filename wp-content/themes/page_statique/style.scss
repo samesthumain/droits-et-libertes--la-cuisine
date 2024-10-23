@@ -60,34 +60,6 @@ body{
     margin: 0;
 }
 
-/*.main{
-    margin: 0 15px;
-}*/
-
-//HEADER
-
-//MAIN
-
-.slogan-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-
-    .slogan-principale{
-        align-self: flex-start;
-        margin: 20px;
-        font-size: 28px;
-
-    }
-}
-
-.souligne{
-    background-color: variables.$secondary;
-}
-
-
-
 .divider{
     display: flex;
     justify-content: flex-start;
@@ -106,21 +78,6 @@ body{
     
 }
 
-.swiper{
-    width: 100%;
-    align-items: center;
-    img{
-        width: 100%;
-        object-fit: cover;
-    }
-    .swiper-button-prev{
-        color: black;
-    }
-    .swiper-button-next{
-        color: black;
-    }
-}
-
 .nouvelles-title{
     border-bottom-color: variables.$primary;
     border-bottom-style: solid;
@@ -136,13 +93,6 @@ body{
 .content{
     margin: 0 20px;
 }
-
-
-
-//FOOTER
-
-
-//stuff que j'ai fais puis qu je vais deplacer ailleurs :3
 
 .slideshow-container{
     display: flex;
@@ -277,15 +227,7 @@ body{
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
 
-    .slogan-principale{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 20px;
     
-        font-size: 40px;
-    }
     
 
     .card{
@@ -332,15 +274,7 @@ body{
 
 @media screen and (min-width: 1440px) {
 
-    .slogan-principale{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 20px;
     
-        font-size: 64px;
-    }
 
 
     .container-temoignage{

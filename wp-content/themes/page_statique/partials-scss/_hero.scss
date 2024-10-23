@@ -1,7 +1,58 @@
+
+.slogan-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    .slogan-principale{
+        align-self: flex-start;
+        margin: 20px;
+        font-size: 28px;
+
+    }
+}
+
+/*.souligne{
+    background-color: variables.$secondary;
+}*/
+
+.swiper{
+    width: 100%;
+    align-items: center;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .swiper-button-prev{
+        color: black;
+    }
+    .swiper-button-next{
+        color: black;
+    }
+}
+
+
 @media screen and (min-width: 834px) and (max-width:1439px) {
+    .slogan-principale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
     
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
+    .slogan-principale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
     
+        font-size: 64px;
+    }
 }
