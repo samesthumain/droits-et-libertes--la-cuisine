@@ -2,6 +2,16 @@
 @use "sass:color";
 
 //scss pour la page qui represente tout les nouvelles
+.nouvelles-container{
+    .nouvelles-liste{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        .nouvelles-cards{
+            
+        }
+    }
+}
 
 //scss pour la page qui represente une nouvelle
 .nouvelle-article-box{
