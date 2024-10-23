@@ -1,14 +1,75 @@
 @use 'variables.scss';
+@use "sass:color";
 
 .bouton-langue{
     color: black;
 
 }
 
-@media screen and (min-width: 834px) and (max-width:1439px) {
+.donations-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
+    p{
+        text-transform: uppercase;
+        color: variables.$primary;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: variables.$secondary;
+
+        
+    }
+
+    &__bouton{
+        background-color: variables.$primary;
+        color: variables.$blanc;
+        border: none;
+        margin-bottom: 40px;
+        
+        width: 500px;
+        
+        font-family: "Jockey One", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        &:hover{
+            background: color.adjust(variables.$primary, $lightness: 20%); 
+        }
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width:1439px) {
+    .donations-box{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        p{
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .donations-box{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        p{
+            display: flex;
+            justify-content: center;
+
+            font-size: 64px;
+        }
+    }
 }
