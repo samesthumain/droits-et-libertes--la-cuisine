@@ -9,6 +9,7 @@
 @use 'partials-scss/page-nouvelle';
 @use 'partials-scss/variables';
 @use 'partials-scss/page-services';
+@use 'partials-scss/titres';
 @use "sass:color";
 
 
@@ -78,11 +79,7 @@ body{
     
 }
 
-.nouvelles-title{
-    border-bottom-color: variables.$primary;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-}
+
 
 .nouvelles-cards__card{
     p{
@@ -108,11 +105,7 @@ body{
     }
 }
 
-.nos-luttes-title{
-    border-bottom-color: variables.$primary;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-}
+
 
 .nos-luttes-list{
     display: flex;
@@ -144,13 +137,7 @@ body{
     }
 }
 
-.temoignages-title{
 
-    
-    border-bottom-color: variables.$primary;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-}
 
 
 .card{

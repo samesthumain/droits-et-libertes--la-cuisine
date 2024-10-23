@@ -1,0 +1,7 @@
+@use 'variables';
+
+.titre-section{
+    border-bottom-color: variables.$primary;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
