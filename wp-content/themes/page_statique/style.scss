@@ -9,7 +9,7 @@
 @use 'partials-scss/page-nouvelle';
 @use 'partials-scss/variables';
 @use 'partials-scss/page-services';
-@use 'partials-scss/titres';
+@use 'partials-scss/delimiteurs-sections';
 @use "sass:color";
 
 
@@ -61,49 +61,11 @@ body{
     margin: 0;
 }
 
-.divider{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    &__losange{
-        width: 30px;
-    }
-
-    &__line{
-        background-color: variables.$primary;
-        height: 6px;
-        width: 100%;
-    }
-
-    
-}
-
-
-
-.nouvelles-cards__card{
-    p{
-        margin: 20px;
-    }
-}
-
 .content{
     margin: 0 20px;
 }
 
-.slideshow-container{
-    display: flex;
 
-    img{
-        background-size: cover;
-        border-style: solid;
-        border-color: variables.$noir;
-    }
-    a{
-       margin: none;
-        align-self: center;
-    }
-}
 
 
 

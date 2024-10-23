@@ -1,0 +1,23 @@
+@use 'variables';
+
+.divider{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__losange{
+        width: 30px;
+    }
+
+    &__line{
+        background-color: variables.$primary;
+        height: 6px;
+        width: 100%;
+    }
+}
+
+.titre-section{
+    border-bottom-color: variables.$primary;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
