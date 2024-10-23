@@ -1,0 +1,58 @@
+@use 'variables';
+
+.nos-luttes-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    a {
+    text-align: left;
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+
+    background: rgb(250,118,89);
+    background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
+
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    a:hover{
+        background: rgb(230,250,89);
+        background: linear-gradient(98deg, rgba(230,250,89,0.8799720571822479) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%); 
+    }
+
+    a:visited{
+        background: rgb(156,44,44);
+        background: linear-gradient(98deg, rgba(156,44,44,1) 0%, rgba(255,177,98,1) 100%); 
+        
+    }
+}
+
+@media screen and (min-width: 834px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+    .nos-luttes-list{
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+
+        a {
+        text-align: left;
+        font-family: "Jockey One", sans-serif;
+        font-size: 30px;
+
+        background: rgb(250,118,89);
+        background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+        text-align: center;
+        }
+    }
+}

@@ -10,6 +10,7 @@
 @use 'partials-scss/variables';
 @use 'partials-scss/page-services';
 @use 'partials-scss/delimiteurs-sections';
+@use 'partials-scss/listes';
 @use "sass:color";
 
 
@@ -66,38 +67,6 @@ body{
 }
 
 
-
-
-
-.nos-luttes-list{
-    display: flex;
-    flex-direction: column;
-
-    gap: 10px;
-
-    a {
-    text-align: left;
-    font-family: "Jockey One", sans-serif;
-    font-size: 30px;
-
-    background: rgb(250,118,89);
-    background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
-
-    margin-left: 20px;
-    margin-right: 20px;
-    }
-
-    a:hover{
-        background: rgb(230,250,89);
-        background: linear-gradient(98deg, rgba(230,250,89,0.8799720571822479) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%); 
-    }
-
-    a:visited{
-        background: rgb(156,44,44);
-        background: linear-gradient(98deg, rgba(156,44,44,1) 0%, rgba(255,177,98,1) 100%); 
-        
-    }
-}
 
 
 
@@ -174,7 +143,7 @@ body{
     
 //}
 
-@media screen and (min-width: 834px) and (max-width:1439px) {
+@media screen and (min-width: 834px) {
 
     
     
@@ -268,39 +237,17 @@ body{
 
  }
 
- .donations-box{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-
-    p{
+    .donations-box{
         display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         justify-content: center;
 
-        font-size: 64px;
+        p{
+            display: flex;
+            justify-content: center;
+
+            font-size: 64px;
+        }
     }
-}
-
-.nos-luttes-list{
-    display: flex;
-    flex-direction: column;
-
-    gap: 10px;
-
-    a {
-    text-align: left;
-    font-family: "Jockey One", sans-serif;
-    font-size: 30px;
-
-    background: rgb(250,118,89);
-    background: linear-gradient(98deg, rgba(250,118,89,0.8799720571822479) 0%, rgba(255,243,240,1) 100%, rgba(255,255,255,1) 100%); 
-
-    margin-left: 20px;
-    margin-right: 20px;
-
-    text-align: center;
-    }
-}
-
 }
