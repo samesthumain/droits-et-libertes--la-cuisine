@@ -46,11 +46,17 @@
         gap: 10px;
 
         .luttes-box{
-            background: rgb(250,118,89);
-            background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%); 
+            /*background: rgb(250,118,89);*/
+            /*background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%);*/
+            background-image: linear-gradient(variables.$tertiary, variables.$blanc);
 
             color: black;
-            padding-bottom: 50px;
+            padding: 1% 0%;
+            /*padding-bottom: 50px;*/
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             
             a{
                 font-family: "Jockey One", sans-serif;
@@ -114,12 +120,12 @@
         gap: 20px;
 
         .luttes-box{
-           display: flex;
-           padding-top: 20px;
+            padding: 2% 0%;
+           /*padding-top: 20px;
            padding-bottom: 30px;
            img{
             
-           }
+           }*/
         }
     }
 }
