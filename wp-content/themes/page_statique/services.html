@@ -1,136 +1,195 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-    
-        <link rel="stylesheet" href="./style.css" />
-        <link
-          rel="shortcut icon"
-          href="/sources/medias/image/logo_small_favicon.png"
-          type="image/x-icon"
-        />
-        <link
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="/sources/medias/image/logo_small_favicon.png"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    </head>
-    <body>
-      <div class="header">
-        <div class="header__logo">
-          <img src="./sources/medias/image/logo_small.png" />
-        </div>
-  
-        <div class="header__logo--full">
-          <img src="./sources/medias/image/logo.png" />
-        </div>
-  
-        <button class="header__donation h3">DONNER</button>
-        <button class="header__bouton-langue">FR</button>
-  
-        <div class="hotdog">
-          <img
-            class="hotdog__toggle"
-            src="./sources/medias/image/menu_hotdog.png"
-            alt=""
-          />
-          <img
-            class="hotdog__retour display-none"
-            src="./sources/medias/image/menu_hotdog_retour.png"
-            alt=""
-          />
-        </div>
-  
-        <div class="searchbar">
-          <input class="searchbar__search" type="text" placeholder="" />
-          <button class="searchbar__loupe" type="submit">
-            <img
-              class="searchbar__loupe__image"
-              src="./sources/medias/image/icon_loupe.png"
-              alt=""
-            />
-          </button>
-        </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__logo">
+        <img src="./sources/medias/image/logo_small.png" />
       </div>
-  
-      <div class="divider divider-header">
+
+      <div class="header__logo--full">
+        <img src="./sources/medias/image/logo.png" />
+      </div>
+
+      <button class="header__donation h3">DONNER</button>
+      <button class="header__bouton-langue">FR</button>
+
+      <div class="hotdog">
         <img
-          class="divider__losange"
-          src="./sources/medias/image/losange_divider.png"
+          class="hotdog__toggle"
+          src="./sources/medias/image/menu_hotdog.png"
           alt=""
         />
-        <div class="divider__line"></div>
+        <img
+          class="hotdog__retour display-none"
+          src="./sources/medias/image/menu_hotdog_retour.png"
+          alt=""
+        />
       </div>
-  
-      <!--navbar-->
-      <div class="main-navbar">
-        <div class="nav-menu display-none">
-          <div class="container-liens-menu">
-            <a href="#" class="menu-title">NOUVELLES</a>
-          </div>
-          <div class="container-liens-menu">
-            <a href="#" class="menu-title">NOS LUTTES</a>
-          </div>
-          <div class="container-liens-menu">
-            <a href="#" class="menu-title">ÉQUIPE</a>
-          </div>
-          <div class="container-liens-menu">
-            <a href="#" class="menu-title">A PROPOS</a>
-          </div>
-          <div class="container-liens-menu">
-            <a href="#" class="menu-title">FAQ</a>
-          </div>
-          <div class="container-liens-menu">
-            <a href="#" class="menu-title">NOUS JOINDRE</a>
-          </div>
+
+      <div class="searchbar">
+        <input class="searchbar__search" type="text" placeholder="" />
+        <button class="searchbar__loupe" type="submit">
+          <img
+            class="searchbar__loupe__image"
+            src="./sources/medias/image/icon_loupe.png"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+
+    <div class="divider divider-header">
+      <img
+        class="divider__losange"
+        src="./sources/medias/image/losange_divider.png"
+        alt=""
+      />
+      <div class="divider__line"></div>
+    </div>
+
+    <!--navbar-->
+    <div class="main-navbar">
+      <div class="nav-menu display-none">
+        <div class="container-liens-menu">
+          <a href="#" class="menu-title">NOUVELLES</a>
+        </div>
+        <div class="container-liens-menu">
+          <a href="#" class="menu-title">NOS LUTTES</a>
+        </div>
+        <div class="container-liens-menu">
+          <a href="#" class="menu-title">ÉQUIPE</a>
+        </div>
+        <div class="container-liens-menu">
+          <a href="#" class="menu-title">A PROPOS</a>
+        </div>
+        <div class="container-liens-menu">
+          <a href="#" class="menu-title">FAQ</a>
+        </div>
+        <div class="container-liens-menu">
+          <a href="#" class="menu-title">NOUS JOINDRE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-container">
+      <p class="services-slogan">CE QUE NOUS LUTTONS POUR!!</p>
+      <p class="services-description">
+        La LDL est un organisme sans but lucratif, indépendant et non partisan,
+        issu de la société civile québécoise et affilié à la Fédération
+        internationale pour les droits humains (FIDH). Depuis plus de 60 ans,
+        elle milite en faveur de la défense et de la promotion de tous les
+        droits humains (droits civils, politiques, économiques, sociaux et
+        culturels) reconnus par la Charte internationale des droits de l’homme.
+        <img class="arrow-down" />
+      </p>
+
+      <div class="liste-luttes">
+        <div class="luttes-box">
+          <a href>Droit a la sante</a
+          ><img src="./sources/medias/image/arrow.png" />
+        </div>
+
+        <div class="luttes-box">
+          <a href>Droit des peuples autochtones</a
+          ><img src="./sources/medias/image/arrow.png" />
+        </div>
+
+        <div class="luttes-box">
+          <a href>Droit economique,sociaux et culturels(DESC)</a
+          ><img src="./sources/medias/image/arrow.png" />
+        </div>
+
+        <div class="luttes-box">
+          <a href>Droit des personnes en detention</a
+          ><img src="./sources/medias/image/arrow.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer__first">
+        <div class="info-container">
+          <button class="donation">donner</button>
+          <icon></icon>
+          <icon></icon>
+          <icon></icon>
+          <p>469 Jean-Talon Ouest, bureau 105 Montréal, Québec H3N 1R4</p>
+          <span></span>
+          <p>Tel: 514 849-7717</p>
+          <p>Cell. Medias: 514 715-7727</p>
+          <span></span>
+          <p>info@liguedesdroits.ca</p>
+        </div>
+
+        <div class="container-social-media">
+          <img
+            class="facebook"
+            src="./sources/medias/image/icons8-facebook.svg"
+          />
+          <img
+            class="instagram"
+            src="./sources/medias/image/icons8-instagram.svg"
+          />
+          <img
+            class="twitter"
+            src="./sources/medias/image/icons8-twitter.svg"
+          />
+          <img
+            class="youtube"
+            src="./sources/medias/image/icons8-youtube.svg"
+          />
         </div>
       </div>
 
-        <div class="services-container">
-          <p class="services-slogan">CE QUE NOUS LUTTONS POUR!!</p> 
-          <p class="services-description">
-            La LDL est un organisme
-sans but lucratif,
-indépendant et non
-partisan, issu de la société
-civile québécoise et affilié à
-la Fédération
-internationale pour les
-droits humains (FIDH).
-Depuis plus de 60 ans, elle
-milite en faveur de la
-défense et de la promotion
-de tous les droits humains
-(droits civils, politiques,
-économiques, sociaux et
-culturels) reconnus par la
-Charte internationale des
-droits de l’homme.
-<img class="arrow-down">
-          </p>
+      <div class="divider">
+        <img
+          class="divider__losange"
+          src="./sources/medias/image/losange_divider_blanc.png"
+          alt=""
+        />
+        <div class="divider__line--white"></div>
+      </div>
 
-          <div class="liste-luttes">
+      <img />
 
-            <div class="luttes-box">
-                <a href>Droit a la sante</a><img src="./sources/medias/image/arrow.png">
-            </div>
-
-            <div class="luttes-box">
-                <a href>Droit des peuples autochtones</a><img src="./sources/medias/image/arrow.png">
-            </div>
-
-            <div class="luttes-box">
-                <a href>Droit economique,sociaux et culturels(DESC)</a><img src="./sources/medias/image/arrow.png">
-            </div>
-
-            <div class="luttes-box">
-                <a href>Droit des personnes en detention</a><img src="./sources/medias/image/arrow.png">
-            </div>
-
-          </div>
-
-        </div>
-
-    </body>
+      <div class="footer__secondary">
+        <img
+          src="./sources/medias/image/membre_pour_pied_de_page/bdsquebec-logo-email.jpg"
+        />
+        <img src="./sources/medias/image/membre_pour_pied_de_page/casifq.png" />
+        <img
+          src="./sources/medias/image/membre_pour_pied_de_page/coalitionaidejuridique.png"
+        />
+        <img src="./sources/medias/image/membre_pour_pied_de_page/fidh.jpg" />
+        <img
+          src="./sources/medias/image/membre_pour_pied_de_page/iclmg-csilc.jpg"
+        />
+        <img
+          src="./sources/medias/image/membre_pour_pied_de_page/logo-echec-a-la-guerre-retin.png"
+        />
+        <img src="./sources/medias/image/membre_pour_pied_de_page/osp.png" />
+        <img
+          src="./sources/medias/image/membre_pour_pied_de_page/rodcd_logo.png"
+        />
+        <img src="./sources/medias/image/membre_pour_pied_de_page/rqaca.png" />
+      </div>
+      <p class="copyright">2024/ ligue des droits et libertés/La cuisine</p>
+    </div>
+  </body>
 </html>
