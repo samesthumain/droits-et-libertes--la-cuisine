@@ -1,0 +1,38 @@
+@use 'variables';
+@use "sass:color";
+
+.service-container{
+    background-color: variables.$primary;
+    
+    padding-top: 3px;
+    .service-titre{
+        background-color: variables.$primary;
+        color: variables.$blanc;
+
+        padding-left: 10px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .service-slogan{
+        color: variables.$blanc;
+        font-size: 30px;
+        text-align: center;
+        text-wrap: wrap;
+        padding: 20px;
+    }
+}
+
+.service-nouvelle-relation{
+    
+    .service-nouvelle-card{
+
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width:1439px) {
+    
+}
+
+@media screen and (min-width: 1440px){
+    
+}
