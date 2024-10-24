@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     .services-slogan {
-        background-color: variables.$primary;
+        //background-color: variables.$primary;
         color: variables.$blanc;
 
         font-family: "Jockey One", sans-serif;
@@ -63,7 +63,12 @@
     }
 }
 
-
+.img-feuille{
+    background-image: url('./sources/medias/image/image_feuille.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (min-width: 834px) and (max-width:1439px) {
     
