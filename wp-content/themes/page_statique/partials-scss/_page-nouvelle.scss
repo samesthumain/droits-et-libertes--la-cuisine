@@ -84,7 +84,7 @@
             background-color: variables.$blanc;
             font-size: 20px;
             padding: 30px;
-            line-height: 1.8;
+            line-height: 1.9;
         }
        
         .nouvelle-article-sources{
@@ -102,10 +102,10 @@
 .nouvelle-sharing-box{
     background-color: rgba(255, 127, 80, 0.805);
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
+
+    padding-right: 20px;
     h4{
         color: variables.$blanc;
         text-align: center;
@@ -127,15 +127,19 @@
     display:flex;
     flex-direction: column;
     gap: 10px;
+
     h2{
         color: variables.$primary;
         text-align: center;
         font-size: 30px;
+
+        letter-spacing: 3px;
     }
     div{
         background: rgb(250,118,89);
         background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%); 
         padding-left: 20px;
+        padding-right: 10px;
         p{
             color: variables.$noir;
         }
@@ -184,6 +188,7 @@
 @media screen and (min-width: 1440px) {
 
     .nouvelle-article-box{
+        background-color: variables.$blanc;
         .nouvelle-article-titre {
             background-color: variables.$primary;
             color: variables.$blanc;
@@ -192,12 +197,17 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+
+            margin: 25px;
+
             h1{
                 color: variables.$blanc;
                 margin-left: 0;
                 margin-right: 0;
     
                 text-align: center;
+                font-size: 30px;
+                text-wrap:wrap;
             }
         }
     
@@ -218,6 +228,12 @@
             text-align: start;
             text-wrap: wrap;
 
+            border-width: 10px;
+            border-color: variables.$primary;
+            border-style: solid;
+
+            margin: 20px;     
+
         }
         .nouvelle-article-summary{
             background-color: variables.$primary;
@@ -226,14 +242,25 @@
             font-family: "Jockey One", sans-serif;
             font-size: 25px;
             text-transform: capitalize;
+
+            padding: 20px;
+            text-align: left;
+            padding-left: 40px;
+
         }
         .nouvelle-article-desc{
             color: variables.$noir;
             font-family: "Jockey One", sans-serif;
             font-size: 15px;
-            text-transform: capitalize;
+            text-transform: lowercase;
     
             text-align: left;
+            padding-left: 20px;
+            p{
+                
+                font-size: 20px;
+                line-height: 2.3;
+            }
            
             .nouvelle-article-sources{
                 color: red;
@@ -250,25 +277,110 @@
         background-color: rgba(255, 127, 80, 0.805);
         display:flex;
         flex-direction: row;
+        gap: 40px;
+        justify-content: start;
+
+        padding-left: 40px;
+        letter-spacing: 5px;
+
         h4{
             font-family: "Jockey One", sans-serif;
-            font-size: 30px;
+            font-size: 60px;
             text-transform: capitalize;
             color: variables.$blanc;
             text-align: left;
         }
 
+        img{
+            width: 120px;
+            height: 120px;
+        }
+
         .printer-logo{
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
     
             border-top: 0;
         }
     }
 
+    .nouvelle-related-box{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        h2{
+            color: variables.$primary;
+            text-align: end;
+            font-size: 60px;
+    
+            letter-spacing: 3px;
+            padding-right: 20px;
+
+            border-bottom-style: solid;
+            border-bottom-color: variables.$primary;
+        }
+        div{
+            background: rgb(250,118,89);
+            background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%); 
+            padding-left: 20px;
+            padding-right: 10px;
+            p{
+                color: variables.$noir;
+                text-align: end;
+                padding-right: 30px;
+                font-size: 30px;
+            }
+        }
+    }
+    
+
     .nouvelle-fleche-box{
+        background-color: variables.$primary;
+        color: variables.$blanc;
+    
+        display: flex;
         flex-direction: row;
-        
+        justify-content: center;
+        align-items: center;
+    
+        .fleche-precedante{
+            background-color: variables.$primary;
+            color: variables.$blanc;
+            padding-right: 70px;
+            p{
+                color: variables.$blanc;
+            }
+    
+            img{
+                padding-right: 30px;
+                width:50px;
+            }
+        }
+    
+        .fleche-next{
+            background-color: variables.$primary;
+            color: variables.$blanc;
+            padding-left: 70px;
+            p{
+                color: variables.$blanc;
+            }
+    
+            img{
+                padding-left: 30px;
+                width:50px;
+            }
+        }
+    }
+
+    .nouvelle-fleche-box:hover{
+        .fleche-precedante:hover{
+            background-color: #6b0723;
+            
+        }
+        .fleche-next:hover{
+            background-color: #6b0723;
+        }
     }
    
 }
