@@ -3,12 +3,33 @@
 
 //scss pour la page qui represente tout les nouvelles
 .nouvelles-container{
+
+    .nouvelles-titre{
+            background-color: variables.$primary;
+            color: variables.$blanc;
+        }
+
     .nouvelles-liste{
         display: flex;
         gap: 10px;
         flex-direction: column;
         .nouvelles-cards{
-            
+            &__card{
+                width: 100%;
+                background: rgb(250,118,89);
+                background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
+                margin: 10px 0;
+                img{
+                    width: 100%;
+                    border-bottom: black solid 1px;
+                }
+        
+                p{
+                    text-transform: uppercase;
+                    margin: 20px;
+                }
+                
+            }
         }
     }
 }
@@ -17,8 +38,7 @@
 .nouvelle-article-box{
     background-color: variables.$primary;
     .nouvelle-article-titre {
-        background: rgb(178,8,56);
-        background: linear-gradient(180deg, rgba(178,8,56,1) 0%, rgba(112,5,35,1) 63%, rgba(92,4,29,1) 79%, rgba(55,2,17,1) 100%, rgba(28,1,9,1) 100%, rgba(0,0,0,1) 100%); 
+        background-color: variables.$primary;
         color: variables.$blanc;
 
         display: flex;
@@ -186,6 +206,29 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+    .nouvelles-container{
+        .nouvelles-liste{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+
+            &__card{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                width: 25%;
+                margin: 0;
+                img{
+                    width: 100%;
+                }
+    
+                .container{
+                    width: 100%;
+                }
+            }
+        }
+    }
 
     .nouvelle-article-box{
         background-color: variables.$blanc;
