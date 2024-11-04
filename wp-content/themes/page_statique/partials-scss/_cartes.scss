@@ -1,6 +1,7 @@
 @use 'variables';
 
 .nouvelles-cards{
+    
     /*display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -9,6 +10,7 @@
     align-items: center;*/
 
     &__card{
+        text-decoration: none;
         width: 100%;
         background: rgb(250,118,89);
         background: linear-gradient(180deg, rgba(250,118,89,1) 30%, rgba(255,255,255,1) 100%); 
