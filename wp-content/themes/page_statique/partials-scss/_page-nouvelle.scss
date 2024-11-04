@@ -5,7 +5,7 @@
 .nouvelles-container{
 
     .nouvelles-titre{
-            background-color: variables.$primary;
+            //background-color: variables.$primary;
             color: variables.$blanc;
         }
 
@@ -192,6 +192,9 @@
 
     .fleche-next{
         color: variables.$blanc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         p{
             color: variables.$blanc;
