@@ -57,10 +57,13 @@
         }
     }
 
-    .nouvelle-article-image{
-        width: 500px;
-        background-size: cover;
-        margin-bottom: 0px;
+    .nouvelle-article-image{ //center the image or smth
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+         
     }
 
     .nouvelle-article-docu{
@@ -255,7 +258,7 @@
         }
     
         .nouvelle-article-image{
-            width: 500px;
+            width: 100%;
             background-size: cover;
         }
     
