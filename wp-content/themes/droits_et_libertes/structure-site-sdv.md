@@ -1,7 +1,12 @@
 # index.html
-## page
+## Post type: page
 
-## home.php
+## Modèle: home.php
+
+## Section héro
+### liste-nouvelles.php
+
+### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
 ## Section nouvelles
 ### liste-nouvelles.php
