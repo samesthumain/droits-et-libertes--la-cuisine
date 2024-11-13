@@ -3,11 +3,6 @@
 
 ## Modèle: home.php
 
-## Section héro
-### liste-nouvelles.php
-
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
 ## Section nouvelles
 ### liste-nouvelles.php
 
@@ -32,6 +27,11 @@
 
 ## news-article.php
 
+## Section héro
+### hero-article.php
+
+### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+
 ## COMPOSANTE DE LA PAGES
 ### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
 
@@ -48,6 +48,11 @@
 
 ## Section nouvelles
 ### liste-nouvelles.php
+
+### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+
+## Section héro
+### hero-article.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
@@ -76,6 +81,11 @@
 
 ## COMPOSANTE DE LA PAGES
 ### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+
+### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+
+## Section héro
+### hero-article.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
