@@ -1,30 +1,31 @@
 # index.html
-## TYPE DE CONTENU (page)
+## page
 
-## MODÈLE (home.php)
+## home.php
 
 ## Section nouvelles
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+### liste-nouvelles.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
 ## Section luttes
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+### liste-luttes.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
 ## Section témoignages
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+### liste-temoignages.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+
 
 
 # news-article.html
-## TYPE DE CONTENU (page)
+## page
 
-## MODÈLE (news-article.php)
+## news-article.php
 
 ## COMPOSANTE DE LA PAGES
 ### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
@@ -32,22 +33,25 @@
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+
 
 
 # news-hub.html
-## TYPE DE CONTENU (nav_menu_item)
+## page
 
-## MODÈLE (news-list.php)
+## news-hub.php
 
-## COMPOSANTE DE LA PAGES
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+## Section nouvelles
+### liste-nouvelles.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
 
+
+
 # services-hub.html
-## TYPE DE CONTENU (nav_menu_item)
+## page
 
 ## MODÈLE (services-list.php)
 
@@ -58,10 +62,12 @@
 
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
 
-# service.html
-## TYPE DE CONTENU (page)
 
-## MODÈLE (service.php)
+
+# service.html
+## page
+
+## service.php
 
 ## COMPOSANTE DE LA PAGES
 ### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
