@@ -7,15 +7,14 @@
 ### Partial: liste-nouvelles.php
 
 ### Champ personnalisés
-#### nom
-
+#### description-nouvelle: text
+#### date-nouvelle: text
 
 ## Section luttes
 ### Partial: liste-luttes.php
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+### Champ personnalisés
+#### nom-lutte: text
 
 
 
@@ -25,16 +24,13 @@
 ## Modèle: news-article.php
 
 ## Section héro
-### hero-article.php
+### Partial: hero-article.php
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+### Champ personnalisés
+#### description-nouvelle: text
 
-## COMPOSANTE DE LA PAGES
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
-
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+## Autres champ personnalisés
+### date-nouvelle: text
 
 
 
@@ -44,16 +40,15 @@
 ## Modèle: news-hub.php
 
 ## Section nouvelles
-### liste-nouvelles.php
+### Partial: liste-nouvelles.php
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+### Champ personnalisés
+#### description-nouvelle: text
+#### date-nouvelle: text
 
-## Section héro
-### hero-article.php
-
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+## Autres champ personnalisés
+### nom-temoin: text
+### temoignage: text
 
 
 
@@ -62,12 +57,11 @@
 
 ## Modèle: services-list.php
 
-## COMPOSANTE DE LA PAGES
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
+## Section luttes
+### Partial: liste-luttes.php
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+### Champ personnalisés
+#### nom-lutte: text
 
 
 
