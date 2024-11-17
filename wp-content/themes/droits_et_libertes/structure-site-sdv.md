@@ -27,7 +27,7 @@
 ### Partial: hero-article.php
 
 ### Champ personnalisés
-#### description-nouvelle: text
+#### description-article: text
 
 ## Autres champ personnalisés
 ### date-nouvelle: text
@@ -45,10 +45,6 @@
 ### Champ personnalisés
 #### description-nouvelle: text
 #### date-nouvelle: text
-
-## Autres champ personnalisés
-### nom-temoin: text
-### temoignage: text
 
 
 
@@ -70,14 +66,10 @@
 
 ## Modèle: service.php
 
-## COMPOSANTE DE LA PAGES
-### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
-
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
 ## Section héro
-### hero-article.php
+### Partial: hero-article.php
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+### Champ personnalisés
+#### description-article: text
 
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+## description-service: text
