@@ -4,17 +4,14 @@
 ## Modèle: home.php
 
 ## Section nouvelles
-### liste-nouvelles.php
+### Partial: liste-nouvelles.php
 
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+### Champ personnalisés
+#### nom
+
 
 ## Section luttes
-### liste-luttes.php
-
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-
-## Section témoignages
-### liste-temoignages.php
+### Partial: liste-luttes.php
 
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 
