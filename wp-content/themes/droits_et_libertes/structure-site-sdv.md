@@ -23,9 +23,9 @@
 
 
 # news-article.html
-## page
+## Post type: page
 
-## news-article.php
+## Modèle: news-article.php
 
 ## Section héro
 ### hero-article.php
@@ -42,9 +42,9 @@
 
 
 # news-hub.html
-## page
+## Post type: page
 
-## news-hub.php
+## Modèle: news-hub.php
 
 ## Section nouvelles
 ### liste-nouvelles.php
@@ -61,9 +61,9 @@
 
 
 # services-hub.html
-## page
+## Post type: page
 
-## MODÈLE (services-list.php)
+## Modèle: services-list.php
 
 ## COMPOSANTE DE LA PAGES
 ### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
@@ -75,9 +75,9 @@
 
 
 # service.html
-## page
+## Post type: page
 
-## service.php
+## Modèle: service.php
 
 ## COMPOSANTE DE LA PAGES
 ### NOM DU PARTIAL DU THÈME WP POUR CETTE COMPOSTANTE
