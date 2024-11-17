@@ -72,4 +72,5 @@
 ### Champ personnalisés
 #### description-article: text
 
-## description-service: text
+## Autres champ personnalisés
+### description-service: text
