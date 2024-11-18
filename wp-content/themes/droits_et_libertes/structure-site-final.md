@@ -21,7 +21,7 @@
 ### Post Type: ‘post’
 ### Post Type: ‘page’
 ## MODÈLE (TEMPLATE)
-### nouvelles.php
+### news-hub.php
 ## COMPOSANTE DE LA PAGES
 ### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 ### nouvelle_nom
@@ -61,7 +61,7 @@
 
 //////
 
-# Service (service.html)
+# Page pour un service (service.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
 ### Post Type: ‘page’
