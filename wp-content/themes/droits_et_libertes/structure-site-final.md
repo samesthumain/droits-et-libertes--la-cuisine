@@ -69,12 +69,20 @@
 # Liste de Services (services-hub.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
+
 ### Post Type: ‘page’
+
 ## MODÈLE (TEMPLATE)
 ### services-hub.php
+
 ## COMPOSANTE DE LA PAGES
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-### service_nom
+### Section luttes
+#### NOM DU PARTIAL
+##### liste-luttes.php
+
+#### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+##### nom-lutte: text
+
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
 
 //////
