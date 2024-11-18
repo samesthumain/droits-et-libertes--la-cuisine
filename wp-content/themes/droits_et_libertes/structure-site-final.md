@@ -1,7 +1,6 @@
 # Accueil (index.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
-
 ### Post Type: ‘page’
 
 ## MODÈLE (TEMPLATE)
@@ -29,27 +28,38 @@
 # Liste de nouvelles (news-hub.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
+
 ### Post Type: ‘page’
+
 ## MODÈLE (TEMPLATE)
 ### news-hub.php
+
 ## COMPOSANTE DE LA PAGES
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-### nouvelle_nom
-### nouvelle_image
-### nouvelle_date
-### nouvelle_description
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+### Section nouvelles
+#### NOM DU PARTIAL
+##### liste-nouvelles.php
+
+#### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+##### description-nouvelle: text
 
 //////
 
 # Page pour une nouvelle (news-article.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
+
 ### Post Type: ‘page’
+
 ## MODÈLE (TEMPLATE)
 ### news-article.php
+
 ## COMPOSANTE DE LA PAGES
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+### Section héro
+#### NOM DU PARTIAL
+##### hero-article.php
+
+#### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+
 ### nouvelle_nom
 ### nouvelle_image
 ### nouvelle_date
