@@ -1,4 +1,4 @@
-# Accueil
+# Accueil (index.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
 ### Post Type: ‘page’
@@ -16,7 +16,7 @@
 
 //////
 
-# Nouvelles
+# Liste de nouvelles (news-hub.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
 ### Post Type: ‘page’
@@ -32,7 +32,7 @@
 
 //////
 
-# Nouvelle
+# Page pour une nouvelle (news-article.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
 ### Post Type: ‘page’
@@ -48,7 +48,7 @@
 
 //////
 
-# Services
+# Liste de Services (services-hub.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
 ### Post Type: ‘page’
@@ -61,7 +61,7 @@
 
 //////
 
-# Service
+# Service (service.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
 ### Post Type: ‘page’
