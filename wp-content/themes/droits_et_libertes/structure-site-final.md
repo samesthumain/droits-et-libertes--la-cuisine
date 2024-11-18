@@ -88,18 +88,21 @@
 # Page pour un service (service.html)
 ## TYPE DE CONTENU (POST TYPE)
 ### Post Type: ‘post’
+
 ### Post Type: ‘page’
+
 ## MODÈLE (TEMPLATE)
 ### service.php
+
 ## COMPOSANTE DE LA PAGES
-### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
-### service_nom
-### service_image
-### service_description
-### nouvelle_nom
-### nouvelle_image
-### nouvelle_date
-### nouvelle_description
+### Section héro
+#### NOM DU PARTIAL
+##### hero-article.php
+
+#### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+##### description-article: text
+
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+### description-service: text
 
 //////
