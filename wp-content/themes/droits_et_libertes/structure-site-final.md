@@ -83,8 +83,6 @@
 #### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
 ##### nom-lutte: text
 
-## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
-
 //////
 
 # Page pour un service (service.html)
