@@ -59,12 +59,10 @@
 ##### hero-article.php
 
 #### CHAMPS PERSONNALISÉS (CUSTOM FIELDS) DE CETTE COMPOSANTE
+##### description-article: text
 
-### nouvelle_nom
-### nouvelle_image
-### nouvelle_date
-### nouvelle_description
 ## AUTRES CHAMPS PERSONNALISÉS (CUSTOM FIELDS) SANS LIEN AVEC UNE COMPOSANTE
+### date-nouvelle: text
 
 //////
 
