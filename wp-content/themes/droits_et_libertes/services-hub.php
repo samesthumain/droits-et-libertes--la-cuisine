@@ -1,7 +1,7 @@
 <?php 
 /**
- * 	Template Name: À propos
- * 	Identique à page, mais avec une barre latérale
+ * 	Template Name: Services-hub
+ *  Template Post Type: service
  */
 
 get_header(); // Affiche header.php
