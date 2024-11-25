@@ -1,7 +1,7 @@
 <?php 
 /**
  * 	Template Name: Accueil
- * 	Identique à page, mais avec une barre latérale
+ *  Template Post Type: post, page
  */
 
 get_header(); // Affiche header.php
