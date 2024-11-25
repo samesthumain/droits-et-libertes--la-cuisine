@@ -5,11 +5,1248 @@ Author URI: https://smnarnold.com
 Description: Thème du site modifié de la ligue des droits et libertées.
 Version: 1.0
 -------------------------------------------------------------- */
-/*
-C'est le moment d'effacer ce commentaire et d'écrire du vrai
-  ___  ____  ____ 
- / __)/ ___)/ ___)
-( (__ \___ \\___ \
- \___)(____/(____/
- 
- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&display=swap");
+.banniere {
+  width: 100%;
+  height: 50px;
+  background-color: #B20838;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banniere img {
+  height: 16px;
+}
+
+@media screen and (min-width: 834px) {
+  .banniere {
+    height: 20px;
+  }
+}
+.bouton-langue {
+  color: black;
+}
+
+.donations-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.donations-box p {
+  text-transform: uppercase;
+  color: #B20838;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f7ff9b;
+}
+.donations-box__bouton {
+  background-color: #B20838;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 40px;
+  width: 500px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.donations-box__bouton:hover {
+  background: #f52b64;
+}
+
+@media screen and (min-width: 834px) and (max-width: 1439px) {
+  .donations-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .donations-box p {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .donations-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .donations-box p {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+  }
+}
+.nouvelles-cards {
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;*/
+}
+.nouvelles-cards__card {
+  text-decoration: none;
+  width: 100%;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(180deg, rgb(250, 118, 89) 30%, rgb(255, 255, 255) 100%);
+  margin: 10px 0;
+}
+.nouvelles-cards__card img {
+  width: 100%;
+  border-bottom: black solid 1px;
+}
+.nouvelles-cards__card p {
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.temoignage-cards__card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.temoignage-cards__card img {
+  width: 250px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.temoignage-cards__card .container h4 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(121deg, rgb(250, 118, 89) 0%, rgb(252, 160, 140) 61%, rgb(255, 255, 255) 100%);
+}
+.temoignage-cards__card .container p {
+  text-transform: uppercase;
+}
+
+/*.nouvelle-card{
+
+
+
+    .image-nouvelle--1{
+
+        height: 100px;
+        width: 160px;
+    }
+}*/
+@media screen and (min-width: 834px) {
+  .nouvelles-cards__card {
+    display: flex;
+    justify-content: center;
+  }
+  .nouvelles-cards__card img {
+    width: 50%;
+  }
+  .nouvelles-cards__card .container {
+    width: 50%;
+  }
+  .temoignage-cards__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px;
+  }
+  .temoignage-cards__card img {
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  .temoignage-cards__card .container h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .temoignage-cards__card .container p {
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nouvelles-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nouvelles-cards__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    margin: 0;
+  }
+  .nouvelles-cards__card img {
+    width: 100%;
+  }
+  .nouvelles-cards__card .container {
+    width: 100%;
+  }
+  .temoignage-cards {
+    display: flex;
+    flex-direction: row;
+  }
+  .temoignage-cards__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .temoignage-cards__card img {
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 200px;
+    margin-left: 20px;
+  }
+  .temoignage-cards__card .container h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .temoignage-cards__card .container p {
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+.footer {
+  background-color: #B20838;
+  color: #ffffff;
+}
+.footer__first {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 0;
+  justify-content: center;
+  align-items: center;
+}
+.footer__first .container-social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.footer__first .container-social-media img {
+  display: block;
+  width: 100px;
+}
+.footer__first .container-social-media .facebook {
+  margin-left: auto;
+  margin-right: none;
+}
+.footer__first .container-social-media .twitter {
+  margin-left: auto;
+  margin-right: none;
+}
+.footer__first .container-social-media .instagram {
+  margin-left: none;
+  margin-right: auto;
+}
+.footer__first p {
+  font-family: "Inter";
+  font-size: 12px;
+  color: #ffffff;
+  margin: 10px;
+}
+.footer__first .donation {
+  background-color: #B20838;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin: 10px;
+}
+.footer__first .donation:hover {
+  background: #f52b64;
+}
+.footer__secondary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__secondary img {
+  width: 20%;
+  height: 20%;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.footer .copyright {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Jockey One", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.divider__line--white {
+  background-color: #ffffff;
+  height: 6px;
+  width: 100%;
+}
+
+@media screen and (min-width: 834px) {
+  .footer__first {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__first p {
+    background-color: #B20838;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: "Jockey One", sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .footer__secondary {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .footer__secondary img {
+    width: 8%;
+    height: 10%;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__first {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer__first p {
+    background-color: #B20838;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: "Jockey One", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: start;
+    margin-left: 20px;
+  }
+  .footer__secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .footer__secondary img {
+    width: 10%;
+  }
+}
+.header {
+  background-color: #ffffff;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "logo donnez langue" "hotdog searchbar searchbar";
+}
+.header__logo {
+  margin-bottom: none;
+  grid-area: logo;
+}
+.header__logo--full {
+  grid-area: full-logo;
+  display: none;
+}
+.header__donation {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  border-style: none;
+  grid-area: donnez;
+}
+.header__donation:hover {
+  background: #f52b64;
+}
+.header__bouton-langue {
+  border: none;
+  font-family: "Jockey One", sans-serif;
+  font-size: 35px;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  color: #000000;
+  grid-area: langue;
+}
+.header .hotdog__toggle {
+  grid-area: hotdog;
+  width: 50px;
+}
+.header .hotdog__retour {
+  grid-area: hotdog;
+  width: 50px;
+}
+.header .searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: searchbar;
+}
+.header .searchbar__search {
+  background-color: rgb(221, 221, 221);
+  border-radius: 20px;
+  border-style: none;
+  width: 60%;
+  height: 30px;
+}
+.header .searchbar__loupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  border-style: none;
+  background-color: white;
+}
+.header .searchbar__loupe__image {
+  width: 20px;
+}
+
+.main-navbar {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.main-navbar .menu-title {
+  margin: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-navbar .menu-title:hover {
+  background-color: #B20838;
+  color: #ffffff;
+}
+
+.nav-menu {
+  grid-template-columns: auto auto auto;
+}
+
+.container-liens-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.divider.divider-header {
+  display: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.display-block {
+  display: inline;
+}
+
+@media screen and (min-width: 834px) {
+  .header {
+    background-color: #ffffff;
+    grid-template-areas: "logo donnez searchbar langue";
+  }
+  .header__donation {
+    margin: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header__bouton-langue {
+    border: none;
+    font-family: "Jockey One", sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    color: #000000;
+    /*margin-top: 20px;*/
+  }
+  .header .hotdog__toggle {
+    display: none;
+  }
+  .header .hotdog__retour {
+    display: none;
+  }
+  .main-navbar {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Jockey One", sans-serif;
+    font-size: 24px;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+    margin: 5px;
+  }
+  .main-navbar .menu-title {
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .main-navbar .menu-title:hover {
+    background-color: #B20838;
+    color: #ffffff;
+  }
+  .nav-menu {
+    display: grid;
+  }
+  .divider.divider-header {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header {
+    background-color: #ffffff;
+    grid-template-areas: "full-logo donnez searchbar searchbar langue";
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__logo--full {
+    display: block;
+  }
+  .header__donation {
+    margin: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header__bouton-langue {
+    border: none;
+    font-family: "Jockey One", sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    color: #000000;
+    /*margin-top: 20px;*/
+  }
+  .header .hotdog__toggle {
+    display: none;
+  }
+  .header .hotdog__retour {
+    display: none;
+  }
+  .main-navbar {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Jockey One", sans-serif;
+    font-size: 24px;
+  }
+  .main-navbar .menu-title:hover {
+    background-color: #B20838;
+    color: #ffffff;
+  }
+  .nav-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  .divider.divider-header {
+    display: none;
+  }
+}
+.slogan-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.slogan-container .slogan-principale {
+  align-self: flex-start;
+  margin: 20px;
+  font-size: 28px;
+}
+
+/*.souligne{
+    background-color: variables.$secondary;
+}*/
+.swiper {
+  width: 100%;
+  align-items: center;
+}
+.swiper img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper .swiper-button-prev {
+  color: black;
+}
+.swiper .swiper-button-next {
+  color: black;
+}
+
+@media screen and (min-width: 834px) and (max-width: 1439px) {
+  .slogan-principale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .slogan-principale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 64px;
+  }
+}
+.nouvelles-container .nouvelles-titre {
+  color: #ffffff;
+}
+.nouvelles-container .nouvelles-liste {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.nouvelles-container .nouvelles-liste .nouvelles-cards__card {
+  width: 100%;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(180deg, rgb(250, 118, 89) 30%, rgb(255, 255, 255) 100%);
+  margin: 10px 0;
+}
+.nouvelles-container .nouvelles-liste .nouvelles-cards__card img {
+  width: 100%;
+  border-bottom: black solid 1px;
+}
+.nouvelles-container .nouvelles-liste .nouvelles-cards__card p {
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.nouvelle-article-box {
+  background-color: #B20838;
+}
+.nouvelle-article-box .nouvelle-article-titre {
+  background-color: #B20838;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.nouvelle-article-box .nouvelle-article-titre h1 {
+  color: #ffffff;
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center;
+  font-size: 45px;
+}
+.nouvelle-article-box .nouvelle-article-image {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nouvelle-article-box .nouvelle-article-docu {
+  background-color: rgb(255, 210, 194);
+  color: black;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.nouvelle-article-box .nouvelle-article-summary {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 50px;
+}
+.nouvelle-article-box .nouvelle-article-summary p {
+  color: #ffffff;
+}
+.nouvelle-article-box .nouvelle-article-desc {
+  color: #000000;
+  font-family: "Jockey One", sans-serif;
+  font-size: 10px;
+  text-transform: capitalize;
+  background-color: #ffffff;
+}
+.nouvelle-article-box .nouvelle-article-desc p {
+  font-size: 20px;
+  padding: 30px;
+  line-height: 1.9;
+}
+.nouvelle-article-box .nouvelle-article-desc .nouvelle-article-sources {
+  color: red;
+  background-color: rgb(255, 222, 175);
+}
+.nouvelle-article-box .nouvelle-article-desc .nouvelle-article-sources p {
+  color: red;
+  text-align: center;
+  background-color: rgb(255, 225, 185);
+}
+
+.nouvelle-sharing-box {
+  background-color: rgba(255, 127, 80, 0.805);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+.nouvelle-sharing-box h4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.nouvelle-sharing-box .printer-logo {
+  width: 50px;
+  height: 50px;
+  border-top: 10px;
+  border-color: #ffffff;
+}
+
+.nouvelle-related-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nouvelle-related-box h2 {
+  color: #B20838;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.nouvelle-related-box div {
+  background: rgb(250, 118, 89);
+  background: linear-gradient(180deg, rgba(250, 118, 89, 0.6895892146) 0%, rgba(255, 255, 255, 0) 100%);
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.nouvelle-related-box div p {
+  color: #000000;
+}
+
+.nouvelle-fleche-box {
+  background-color: #B20838;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nouvelle-fleche-box .fleche-precedante {
+  color: #ffffff;
+}
+.nouvelle-fleche-box .fleche-precedante p {
+  color: #ffffff;
+}
+.nouvelle-fleche-box .fleche-precedante img {
+  width: 50px;
+}
+.nouvelle-fleche-box .fleche-next {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nouvelle-fleche-box .fleche-next p {
+  color: #ffffff;
+}
+.nouvelle-fleche-box .fleche-next img {
+  width: 50px;
+}
+
+@media screen and (min-width: 1440px) {
+  .nouvelles-container .nouvelles-liste {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+  .nouvelles-container .nouvelles-liste__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    margin: 0;
+  }
+  .nouvelles-container .nouvelles-liste__card img {
+    width: 100%;
+  }
+  .nouvelles-container .nouvelles-liste__card .container {
+    width: 100%;
+  }
+  .nouvelle-article-box {
+    background-color: #ffffff;
+  }
+  .nouvelle-article-box .nouvelle-article-titre {
+    background-color: #B20838;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+  }
+  .nouvelle-article-box .nouvelle-article-titre h1 {
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 30px;
+    text-wrap: wrap;
+  }
+  .nouvelle-article-box .nouvelle-article-image {
+    width: 100%;
+    background-size: cover;
+  }
+  .nouvelle-article-box .nouvelle-article-docu {
+    background-color: rgb(255, 210, 194);
+    color: black;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: "Jockey One", sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: start;
+    text-wrap: wrap;
+    border-width: 10px;
+    border-color: #B20838;
+    border-style: solid;
+    margin: 20px;
+  }
+  .nouvelle-article-box .nouvelle-article-summary {
+    background-color: #B20838;
+    color: #ffffff;
+    font-family: "Jockey One", sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 20px;
+    text-align: left;
+    padding-left: 40px;
+  }
+  .nouvelle-article-box .nouvelle-article-desc {
+    color: #000000;
+    font-family: "Jockey One", sans-serif;
+    font-size: 15px;
+    text-transform: lowercase;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .nouvelle-article-box .nouvelle-article-desc p {
+    font-size: 20px;
+    line-height: 2.3;
+  }
+  .nouvelle-article-box .nouvelle-article-desc .nouvelle-article-sources {
+    color: red;
+    background-color: rgb(255, 222, 175);
+  }
+  .nouvelle-article-box .nouvelle-article-desc .nouvelle-article-sources p {
+    color: red;
+    text-align: left;
+  }
+  .nouvelle-sharing-box {
+    background-color: rgba(255, 127, 80, 0.805);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: start;
+    padding-left: 40px;
+    letter-spacing: 5px;
+  }
+  .nouvelle-sharing-box h4 {
+    font-family: "Jockey One", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+  }
+  .nouvelle-sharing-box img {
+    width: 120px;
+    height: 120px;
+  }
+  .nouvelle-sharing-box .printer-logo {
+    width: 120px;
+    height: 120px;
+    border-top: 0;
+  }
+  .nouvelle-related-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nouvelle-related-box h2 {
+    color: #B20838;
+    text-align: end;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding-right: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #B20838;
+  }
+  .nouvelle-related-box div {
+    background: rgb(250, 118, 89);
+    background: linear-gradient(180deg, rgba(250, 118, 89, 0.6895892146) 0%, rgba(255, 255, 255, 0) 100%);
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .nouvelle-related-box div p {
+    color: #000000;
+    text-align: end;
+    padding-right: 30px;
+    font-size: 30px;
+  }
+  .nouvelle-fleche-box {
+    background-color: #B20838;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .nouvelle-fleche-box .fleche-precedante {
+    background-color: #B20838;
+    color: #ffffff;
+    padding-right: 70px;
+  }
+  .nouvelle-fleche-box .fleche-precedante p {
+    color: #ffffff;
+  }
+  .nouvelle-fleche-box .fleche-precedante img {
+    padding-right: 30px;
+    width: 50px;
+  }
+  .nouvelle-fleche-box .fleche-next {
+    background-color: #B20838;
+    color: #ffffff;
+    padding-left: 70px;
+  }
+  .nouvelle-fleche-box .fleche-next p {
+    color: #ffffff;
+  }
+  .nouvelle-fleche-box .fleche-next img {
+    padding-left: 30px;
+    width: 50px;
+  }
+  .nouvelle-fleche-box:hover .fleche-precedante:hover {
+    background-color: #6b0723;
+  }
+  .nouvelle-fleche-box:hover .fleche-next:hover {
+    background-color: #6b0723;
+  }
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+.services-container .services-slogan {
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 64px;
+  text-transform: capitalize;
+  text-align: center;
+  text-wrap: balance;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #B20838;
+  margin: 0;
+}
+.services-container .services-description {
+  background-color: #B20838;
+  color: #ffffff;
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  /*margin-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 100px;*/
+}
+.services-container .liste-luttes {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.services-container .liste-luttes .luttes-box {
+  /*background: rgb(250,118,89);*/
+  /*background: linear-gradient(180deg, rgba(250,118,89,0.6895892145920868) 0%, rgba(255,255,255,0) 100%);*/
+  background-image: linear-gradient(#FA7659, #ffffff);
+  color: black;
+  padding: 1% 0%;
+  /*padding-bottom: 50px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-container .liste-luttes .luttes-box a {
+  font-family: "Jockey One", sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #000000;
+  padding-left: 10px;
+  text-align: end;
+  padding-left: 20px;
+}
+.services-container .liste-luttes .luttes-box a:visited {
+  background: rgb(156, 44, 44);
+  background: linear-gradient(98deg, rgb(156, 44, 44) 0%, rgb(255, 177, 98) 100%);
+}
+.services-container .liste-luttes .luttes-box img {
+  width: 50px;
+  height: 50px;
+}
+.services-container .liste-luttes .luttes-box:hover {
+  background: rgb(230, 250, 89);
+  background: linear-gradient(98deg, rgba(230, 250, 89, 0.8799720572) 0%, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+}
+
+.img-feuille {
+  background-image: url("./sources/medias/image/image_feuille.jpg");
+  background-color: #B20838;
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .services-container .services-slogan {
+    font-family: "Jockey One", sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: left;
+    text-wrap: nowrap;
+    -webkit-text-stroke-width: 0px;
+    text-shadow: 2px;
+    padding-left: 20px;
+    text-wrap: balance;
+  }
+  .services-container .services-description {
+    text-align: left;
+    text-wrap: balance;
+    /*padding-right: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;*/
+  }
+  .services-container .liste-luttes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
+  .services-container .liste-luttes .luttes-box {
+    padding: 2% 0%;
+    /*padding-top: 20px;
+    padding-bottom: 30px;
+    img{
+
+    }*/
+  }
+}
+.divider {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.divider__losange {
+  width: 30px;
+}
+.divider__line {
+  background-color: #B20838;
+  height: 6px;
+  width: 100%;
+}
+
+.titre-section {
+  border-bottom-color: #B20838;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+.nos-luttes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nos-luttes-list a {
+  text-align: left;
+  font-family: "Jockey One", sans-serif;
+  font-size: 30px;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(98deg, rgba(250, 118, 89, 0.8799720572) 0%, rgb(255, 243, 240) 100%, rgb(255, 255, 255) 100%);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nos-luttes-list a:hover {
+  background: rgb(230, 250, 89);
+  background: linear-gradient(98deg, rgba(230, 250, 89, 0.8799720572) 0%, rgb(255, 255, 255) 100%, rgb(255, 255, 255) 100%);
+}
+.nos-luttes-list a:visited {
+  background: rgb(156, 44, 44);
+  background: linear-gradient(98deg, rgb(156, 44, 44) 0%, rgb(255, 177, 98) 100%);
+}
+
+@media screen and (min-width: 1440px) {
+  .nos-luttes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nos-luttes-list a {
+    text-align: left;
+    font-family: "Jockey One", sans-serif;
+    font-size: 30px;
+    background: rgb(250, 118, 89);
+    background: linear-gradient(98deg, rgba(250, 118, 89, 0.8799720572) 0%, rgb(255, 243, 240) 100%, rgb(255, 255, 255) 100%);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+}
+.service-container {
+  background-color: #B20838;
+  padding-top: 3px;
+}
+.service-container .service-titre {
+  background-color: #B20838;
+  color: #ffffff;
+  padding-left: 10px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.service-container .service-slogan {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  text-wrap: wrap;
+  padding: 20px;
+}
+.service-container img {
+  width: 100%;
+}
+
+.service-nouvelle-relation .service-nouvelle-card__card {
+  width: 100%;
+  background: rgb(250, 118, 89);
+  background: linear-gradient(180deg, rgb(250, 118, 89) 30%, rgb(255, 255, 255) 100%);
+  margin: 10px 0;
+}
+.service-nouvelle-relation .service-nouvelle-card__card img {
+  width: 100%;
+  border-bottom: black solid 1px;
+}
+.service-nouvelle-relation .service-nouvelle-card__card p {
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .service-nouvelle-relation .service-nouvelle-card__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    margin: 0;
+  }
+  .service-nouvelle-relation .service-nouvelle-card__card img {
+    width: 100%;
+  }
+  .service-nouvelle-relation .service-nouvelle-card__card .container {
+    width: 100%;
+  }
+}
+h1, .h1 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 64px;
+  text-transform: capitalize;
+  color: #B20838;
+}
+
+h2, .h2 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+h3, .h3 {
+  font-family: "Jockey One", sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+p, .p {
+  font-family: "Jockey One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.infos-add {
+  font-family: "Jockey One", sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #B20838;
+}
+
+.texte-banniere {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  margin: 0 20px;
+}
+
+.no-overflow {
+  overflow: none;
+}/*# sourceMappingURL=style.css.map */
