@@ -69,19 +69,19 @@
         </button>
     </div>
 </div>
-	
 
-	<nav>
+<!--navbar-->
+    <div class="main-navbar">
 		<?php 
 			// Affiche un menu si dans le tableau de bord un menu a été défini dans cet emplacement
 			wp_nav_menu( array(
 				'theme_location' => 'main-menu',
-				'menu_class' => 'navbar-nav',
-				'list_item_class' => 'nav-item',
-				'link_item_class' => 'nav-link'
-				) );
+				'menu_class' => 'nav-menu display-none',
+				'list_item_class' => 'container-liens-menu',
+				'link_item_class' => 'menu-title'
+			) );
 		?>
-	</nav>
+    </div>
 
 	<?php 
 		// Affiche la description de site se trouvant dans "General Settings" dans l'admin WordPress
