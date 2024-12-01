@@ -9,6 +9,15 @@ get_header(); // Affiche header.php
 
 <article>
 
+<div class="divider">
+        <img
+          class="divider__losange"
+          src="./sources/medias/image/losange_divider.png"
+          alt=""
+        />
+        <div class="divider__line"></div>
+      </div>
+
 <div class="nouvelles-container content">
 
       <div class="nouvelles-titre"><h1><?php the_title(); ?></h1></div>
