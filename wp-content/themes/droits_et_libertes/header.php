@@ -32,7 +32,8 @@
 	?>
 >
 
-<header>	
+<!--header-->
+<div class="header">	
 	<a class="header__logo" href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?>
 		<img src="./sources/medias/image/logo_small.png" />
 	</a>
@@ -56,12 +57,29 @@
           alt=""
         />
     </div>
+
+	<div class="searchbar">
+        <input class="searchbar__search" type="text" placeholder="" />
+        <button class="searchbar__loupe" type="submit">
+          <img
+            class="searchbar__loupe__image"
+            src="./sources/medias/image/icon_loupe.png"
+            alt=""
+          />
+        </button>
+    </div>
+</div>
 	
 
 	<nav>
 		<?php 
 			// Affiche un menu si dans le tableau de bord un menu a été défini dans cet emplacement
-			wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+			wp_nav_menu( array(
+				'theme_location' => 'main-menu',
+				'menu_class' => 'navbar-nav',
+				'list_item_class' => 'nav-item',
+				'link_item_class' => 'nav-link'
+				) );
 		?>
 	</nav>
 
@@ -142,7 +160,7 @@
           <a href="#" class="menu-title">NOUS JOINDRE</a>
         </div>
       </div>
-    </div>
+    </div-->
 
     <!--MAIN-->
     <!--div class="main">
