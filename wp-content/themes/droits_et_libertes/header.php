@@ -70,6 +70,15 @@
     </div>
 </div>
 
+<div class="divider divider-header">
+    <img
+        class="divider__losange"
+        src="./sources/medias/image/losange_divider.png"
+        alt=""
+    />
+    <div class="divider__line"></div>
+</div>
+
 <!--navbar-->
     <div class="main-navbar">
 		<?php 
