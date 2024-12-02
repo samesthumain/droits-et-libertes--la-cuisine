@@ -35,7 +35,7 @@
 <!--header-->
 <div class="header">	
 	<a class="header__logo" href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?>
-		<img src="./sources/medias/image/logo_small.png" />
+    <img src="<?php bloginfo('template_url'); ?>/images/fichier-image.svg">
 	</a>
 
 	<a class="header__logo--full" href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?>
