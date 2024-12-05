@@ -35,11 +35,11 @@
 <!--header-->
 <div class="header">	
 	<a class="header__logo" href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?>
-    <img src="<?php bloginfo('template_url'); ?>/images/fichier-image.svg">
+    <img src="<?php bloginfo('template_url'); ?>/images/ldl-logo-horizontale-270.png">
 	</a>
 
 	<a class="header__logo--full" href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Affiche le nom du site ?>
-		<img src="./sources/medias/image/logo_small.png" />
+    <img src="<?php bloginfo('template_url'); ?>/images/ldl-logo-petit.png">
 	</a>
 
 	<button class="header__donation h3">DONNER</button>
