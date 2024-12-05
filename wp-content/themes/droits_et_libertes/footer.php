@@ -53,25 +53,16 @@
       <img />
 
       <div class="footer__secondary">
-        <img
-          src="./sources/medias/image/membre_pour_pied_de_page/bdsquebec-logo-email.jpg"
-        />
-        <img src="./sources/medias/image/membre_pour_pied_de_page/casifq.png" />
-        <img
-          src="./sources/medias/image/membre_pour_pied_de_page/coalitionaidejuridique.png"
-        />
-        <img src="./sources/medias/image/membre_pour_pied_de_page/fidh.jpg" />
-        <img
-          src="./sources/medias/image/membre_pour_pied_de_page/iclmg-csilc.jpg"
-        />
-        <img
-          src="./sources/medias/image/membre_pour_pied_de_page/logo-echec-a-la-guerre-retin.png"
-        />
-        <img src="./sources/medias/image/membre_pour_pied_de_page/osp.png" />
-        <img
-          src="./sources/medias/image/membre_pour_pied_de_page/rodcd_logo.png"
-        />
-        <img src="./sources/medias/image/membre_pour_pied_de_page/rqaca.png" />
+        <img src="<?php bloginfo('template_url'); ?>/images/bdsquebec-logo-email.jpg">
+        <img src="<?php bloginfo('template_url'); ?>/images/casifq.png">
+        <img src="<?php bloginfo('template_url'); ?>/images/coalitionaidejuridique.png">
+        <img src="<?php bloginfo('template_url'); ?>/images/fidh.jpg">
+        <img src="<?php bloginfo('template_url'); ?>/images/iclmg-csilc.jpg">
+        <img src="<?php bloginfo('template_url'); ?>/images/logo-echec-a-la-guerre-retin.png">
+        <img src="<?php bloginfo('template_url'); ?>/images/osp.png">
+        <img src="<?php bloginfo('template_url'); ?>/images/rodcd_logo.png">
+        <img src="<?php bloginfo('template_url'); ?>/images/rodcd_logo.png">
+        <img src="<?php bloginfo('template_url'); ?>/images/rqaca.png">
       </div>
       <p class="copyright">2024/ ligue des droits et libertés/La cuisine</p>
     </div>
