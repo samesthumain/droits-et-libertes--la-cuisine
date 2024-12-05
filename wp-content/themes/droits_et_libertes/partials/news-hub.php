@@ -24,7 +24,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
             <!--img/-->
             <div class="container">
               <p>
-                <?php the_title(); ?>
+                <?php the_title(string $before = 'class="titre-section"'); ?>
               </p>
               <p class="infos-add"><?php echo get_field('date_de_la_nouvelle'); ?></p>
             </div>
