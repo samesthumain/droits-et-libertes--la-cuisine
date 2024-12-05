@@ -12,11 +12,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 ?>
 
 	<article>
-		<?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
+		<!-- ?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
 			<h2>
-				<?php the_title(); // Titre de la page ?>
+				< ?php the_title(); // Titre de la page ?>
 			</h2>
-		<?php endif; ?>
+		< ?php endif; ?-->
 
 		<div class="divider">
   			<img class="divider__losange" src="<?php bloginfo('template_url'); ?>/images/losange_divider.png">
