@@ -10,13 +10,9 @@ get_header(); // Affiche header.php
 <article>
 
 <div class="divider">
-        <img
-          class="divider__losange"
-          src="./sources/medias/image/losange_divider.png"
-          alt=""
-        />
-        <div class="divider__line"></div>
-      </div>
+  <img class="divider__losange" src="<?php bloginfo('template_url'); ?>/images/losange_divider.png">
+  <div class="divider__line"></div>
+</div>
 
 <div class="nouvelles-container content">
 
