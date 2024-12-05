@@ -65,6 +65,14 @@
 
 <!--navbar-->
     <div class="main-navbar">
+    <?php
+    wp_nav_menu( array(
+				'theme_location' => 'main-menu',
+				'menu_class' => 'nav-menu display-none',
+				'list_item_class' => 'container-liens-menu',
+				'link_item_class' => 'menu-title'
+		) );
+    ?>
 		<!--?php 
     //arrays pour sauvegarder ce qui a dans le menu
 			$menuTitresArr = array();
