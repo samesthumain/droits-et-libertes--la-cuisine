@@ -22,31 +22,15 @@
         </div>
 
         <div class="container-social-media">
-          <img
-            class="facebook"
-            src="./sources/medias/image/icons8-facebook.svg"
-          />
-          <img
-            class="instagram"
-            src="./sources/medias/image/icons8-instagram.svg"
-          />
-          <img
-            class="twitter"
-            src="./sources/medias/image/icons8-twitter.svg"
-          />
-          <img
-            class="youtube"
-            src="./sources/medias/image/icons8-youtube.svg"
-          />
+          <img class="facebook" src="<?php bloginfo('template_url'); ?>/images/icons8-facebook.svg">
+          <img class="instagram" src="<?php bloginfo('template_url'); ?>/images/icons8-instagram.svg">
+          <img class="twitter" src="<?php bloginfo('template_url'); ?>/images/icons8-twitter.svg">
+          <img class="youtube" src="<?php bloginfo('template_url'); ?>/images/icons8-youtube.svg">
         </div>
       </div>
 
       <div class="divider">
-        <img
-          class="divider__losange"
-          src="./sources/medias/image/losange_divider_blanc.png"
-          alt=""
-        />
+        <img class="divider__losange" src="<?php bloginfo('template_url'); ?>/images/losange_divider_blanc.png">
         <div class="divider__line--white"></div>
       </div>
 
