@@ -63,7 +63,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 		<div class="content">
         <!-- Nouvelle -->
         <h1 class="titre-section"> 
-          
+        <?php the_field('titre_news'); ?>
           <!--NOUVELLES-->
         </h1>
 		
@@ -104,8 +104,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         </div-->
 
         <!-- Nos luttes -->
-        <!--h1 class="titre-section">NOS LUTTES</h1>
-        <div class="nos-luttes-list">
+        <h1 class="titre-section">
+        <?php the_field('titre_lutte'); ?>
+        <!--NOS LUTTES-->
+        </h1>
+        <!--div class="nos-luttes-list">
           <a href="">Covid-19 </a>
           <a href="">Droit a la santé</a>
           <a href="">Droit d'association</a>
@@ -113,7 +116,10 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         </div-->
 
         <!-- Temoignages -->
-        <h1 class="titre-section h1">TEMOIGNAGES</h1>
+        <h1 class="titre-section h1">
+        <?php the_field('titre_temoignages'); ?>
+        <!--TEMOIGNAGES-->
+        </h1>
 
         <div class="temoignage-cards">
           <div class="temoignage-cards__card">
