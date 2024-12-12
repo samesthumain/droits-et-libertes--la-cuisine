@@ -18,6 +18,20 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
   			<div class="divider__line"></div>
 		</div>
 
+    <div class="slogan-container">
+        <img />
+        <p class="slogan-principale h1">
+          <?php the_field('slogan_partie_1'); ?>
+          <!--Pour une société qui defend les droits et les libertés de ses
+          individus.-->
+          <span></span>
+          <?php the_field('slogan_partie_2'); ?>
+          <!--50 ans d’actions, l’organisme se manifeste toujours sur les causes
+          modernes.-->
+        </p>
+        <img />
+      </div>
+
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -48,7 +62,10 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
 		<div class="content">
         <!-- Nouvelle -->
-        <!--h1 class="titre-section">NOUVELLES</h1-->
+        <h1 class="titre-section"> 
+          
+          <!--NOUVELLES-->
+        </h1>
 		
 		<!--?php get_template_part( 'partials/news-hub' ); ?-->
 
@@ -96,7 +113,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         </div-->
 
         <!-- Temoignages -->
-        <!--h1 class="titre-section h1">TEMOIGNAGES</h1>
+        <h1 class="titre-section h1">TEMOIGNAGES</h1>
 
         <div class="temoignage-cards">
           <div class="temoignage-cards__card">
@@ -104,8 +121,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
             <div class="container">
               <h4>Denis Langlois</h4>
               <p>
-                La démarche nous a également menés à inscrire le rapport sur les
-                droits humains […] 
+              <?php the_field('temoignage_1'); ?>
+                <!--La démarche nous a également menés à inscrire le rapport sur les
+                droits humains […] -->
               </p>
             </div>
           </div>
@@ -117,8 +135,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
             <div class="container">
               <h4>Dominique Boivert</h4>
               <p>
-                Changer le monde est une responsabilité, chacun à notre modeste
-                niveau[…]
+              <?php the_field('temoignage_2'); ?>
+                <!--Changer le monde est une responsabilité, chacun à notre modeste
+                niveau[…]-->
               </p>
             </div>
           </div>
@@ -128,18 +147,24 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
             <div class="container">
               <h4>Lucie Lemonde</h4>
               <p>
-                Nous étions une poignée au Canada à mener les premières
-                batailles […]
+              <?php the_field('temoignage_3'); ?>
+                <!--Nous étions une poignée au Canada à mener les premières
+                batailles […]-->
               </p>
             </div>
           </div>
-        </div!-->
+        </div>
 
         <!-- Donations -->
-        <!--div class="donations-box">
-          <p>Toute donation est extrêmement apprécié</p>
-          <button class="donations-box__bouton">Donner Ici</button>
-        </div-->
+        <div class="donations-box">
+          <p>
+          <?php the_field('desc_donnation'); ?>
+            <!--Toute donation est extrêmement apprécié-->
+          </p>
+          <button class="donations-box__bouton">
+          <?php the_field('donner'); ?>
+          <!--Donner Ici--> </button>
+        </div>
       </div>
 		
 		<?php the_content(); // Contenu principal de la page ?>
