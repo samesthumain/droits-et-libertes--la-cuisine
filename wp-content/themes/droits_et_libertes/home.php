@@ -32,6 +32,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <img />
       </div>
 
+      <div class="divider">
+  			<img class="divider__losange" src="<?php bloginfo('template_url'); ?>/images/losange_divider.png">
+  			<div class="divider__line"></div>
+      </div>
+
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -66,6 +71,35 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <?php the_field('titre_news'); ?>
           <!--NOUVELLES-->
         </h1>
+
+        <?php
+if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ? 
+	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
+	$nouvelle = new WP_Query('post_type=nouvelle');
+	while ( $nouvelle->have_posts() ) : $nouvelle->the_post();
+?>
+		<div class="nouvelles-cards__card">
+		<?php the_post_thumbnail(); ?>
+            <!--img/-->
+            <div class="container">
+              <p>
+                <?php the_title(); ?>
+              </p>
+              <p class="infos-add"><?php echo get_field('date_de_la_nouvelle'); ?></p>
+            </div>
+          </div>
+
+
+		<!--?php if (!is_front_page()) : // Si nous ne sommes PAS sur la page d'accueil ?>
+			<h2>
+				< ?php the_title(); // Titre de la page ?>
+			</h2>
+		< ?php endif; ?>
+		
+		< ?php the_content(); // Contenu principal de la page ?-->
+	
+<?php endwhile; // Fermeture de la boucle
+?>
 		
 		<!--?php get_template_part( 'partials/news-hub' ); ?-->
 
@@ -123,7 +157,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
         <div class="temoignage-cards">
           <div class="temoignage-cards__card">
-            <img src="./sources/medias/image/vrais_temoin/denis_langlois.jpg" />
+            <img src="<?php bloginfo('template_url'); ?>/images/denis_langlois.jpg" />
             <div class="container">
               <h4>Denis Langlois</h4>
               <p>
@@ -136,7 +170,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
 
           <div class="temoignage-cards__card">
             <img
-              src="./sources/medias/image/vrais_temoin/hommage-dominique-boisvert.png"
+              src="<?php bloginfo('template_url'); ?>/images/hommage-dominique-boisvert.png"
             />
             <div class="container">
               <h4>Dominique Boivert</h4>
@@ -149,7 +183,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
           </div>
 
           <div class="temoignage-cards__card">
-            <img src="./sources/medias/image/vrais_temoin/lucie_lemonde.jpg" />
+            <img src="<?php bloginfo('template_url'); ?>/images/lucie_lemonde.jpg" />
             <div class="container">
               <h4>Lucie Lemonde</h4>
               <p>
