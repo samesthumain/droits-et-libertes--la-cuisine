@@ -27,9 +27,9 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <!-- Nouvelle -->
         <!--h1 class="titre-section">NOUVELLES</h1-->
 		
-		<?php
+		<!--?php
 			get_template_part( 'partials/news-hub' );
-		?>
+		?-->
 
         <!--div class="nouvelles-cards">
           <div class="nouvelles-cards__card">
