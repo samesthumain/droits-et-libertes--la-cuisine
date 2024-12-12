@@ -25,16 +25,16 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
           <!-- Slides -->
           <div class="swiper-slide">
             <img
-              src="./sources/medias/image/page_web_accueil_financement_ldl_20240909.png"
+              src="<?php bloginfo('template_url'); ?>/images/page_web_accueil_financement_ldl_20240909.png"
             />
           </div>
 
           <div class="swiper-slide">
-            <img src="./sources/medias/image/131524175_cropped.jpg" />
+            <img src="<?php bloginfo('template_url'); ?>/images/131524175_cropped.jpg" />
           </div>
 
           <div class="swiper-slide">
-            <img src="./sources/medias/image/qtq80-r0tjkc.jpeg" />
+            <img src="<?php bloginfo('template_url'); ?>/images/qtq80-r0tjkc.jpeg" />
           </div>
           ...
         </div>
@@ -96,7 +96,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         </div-->
 
         <!-- Temoignages -->
-        <h1 class="titre-section h1">TEMOIGNAGES</h1>
+        <!--h1 class="titre-section h1">TEMOIGNAGES</h1>
 
         <div class="temoignage-cards">
           <div class="temoignage-cards__card">
@@ -133,7 +133,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               </p>
             </div>
           </div>
-        </div>
+        </div!-->
 
         <!-- Donations -->
         <!--div class="donations-box">
