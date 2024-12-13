@@ -73,8 +73,6 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         </h1>
 
         <?php
-if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ? 
-	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
 	$nouvelle = new WP_Query('post_type=nouvelle');
 	while ( $nouvelle->have_posts() ) : $nouvelle->the_post();
 ?>
@@ -142,6 +140,15 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <?php the_field('titre_lutte'); ?>
         <!--NOS LUTTES-->
         </h1>
+
+        <?php $service = new WP_Query(['post_type' => 'service', 'posts_per_page' => -1,]);
+    while ($service->have_posts()):
+        $service->the_post(); ?>
+<div class="luttes-box">
+<a href="./service.html"><?php echo get_field('titre_du_service'); ?></a
+>
+</div>
+<?php endwhile ?>
         <!--div class="nos-luttes-list">
           <a href="">Covid-19 </a>
           <a href="">Droit a la santé</a>

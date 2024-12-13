@@ -43,7 +43,10 @@
 	</a>
 
 	<button class="header__donation h3">DONNER</button>
-    <button class="header__bouton-langue">FR</button>
+    <button class="header__bouton-langue">
+      <!--FR-->
+  
+    </button>
 
 	<div class="hotdog">
     <img class="hotdog__toggle" src="<?php bloginfo('template_url'); ?>/images/menu_hotdog.png">
@@ -68,7 +71,7 @@
     <?php
     wp_nav_menu( array(
 				'theme_location' => 'main-menu',
-				'menu_class' => 'nav-menu display-none',
+				'menu_class' => 'nav-menu',
 				'list_item_class' => 'container-liens-menu',
 				'link_item_class' => 'menu-title'
 		) );
