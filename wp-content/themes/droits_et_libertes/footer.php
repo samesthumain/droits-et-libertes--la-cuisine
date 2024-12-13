@@ -45,7 +45,6 @@
         <img src="<?php bloginfo('template_url'); ?>/images/logo-echec-a-la-guerre-retin.png">
         <img src="<?php bloginfo('template_url'); ?>/images/osp.png">
         <img src="<?php bloginfo('template_url'); ?>/images/rodcd_logo.png">
-        <img src="<?php bloginfo('template_url'); ?>/images/rodcd_logo.png">
         <img src="<?php bloginfo('template_url'); ?>/images/rqaca.png">
       </div>
       <p class="copyright">2024/ ligue des droits et libertés/La cuisine</p>

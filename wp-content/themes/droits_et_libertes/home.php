@@ -71,6 +71,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <?php the_field('titre_news'); ?>
           <!--NOUVELLES-->
         </h1>
+        
 
         <?php
 	$nouvelle = new WP_Query('post_type=nouvelle');
@@ -84,6 +85,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                 <?php the_title(); ?>
               </p>
               <p class="infos-add"><?php echo get_field('date_de_la_nouvelle'); ?></p>
+				 <p class="infos-add"><?php echo get_field('description_de_la_nouvelle_carte'); ?></p>
             </div>
           </div>
 
@@ -138,28 +140,19 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <!-- Nos luttes -->
         <h1 class="titre-section">
         <?php the_field('titre_lutte'); ?>
-        <!--NOS LUTTES-->
+        NOS LUTTES
         </h1>
-
-        <?php $service = new WP_Query(['post_type' => 'service', 'posts_per_page' => -1,]);
-    while ($service->have_posts()):
-        $service->the_post(); ?>
-<div class="luttes-box">
-<a href="./service.html"><?php echo get_field('titre_du_service'); ?></a
->
-</div>
-<?php endwhile ?>
-        <!--div class="nos-luttes-list">
+        <div class="nos-luttes-list">
           <a href="">Covid-19 </a>
           <a href="">Droit a la santé</a>
           <a href="">Droit d'association</a>
           <a href="">Droit des personnes en detention et enjeux carceraux</a>
-        </div-->
+        </div>
 
         <!-- Temoignages -->
         <h1 class="titre-section h1">
         <?php the_field('titre_temoignages'); ?>
-        <!--TEMOIGNAGES-->
+       TEMOIGNAGES
         </h1>
 
         <div class="temoignage-cards">
@@ -169,8 +162,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               <h4>Denis Langlois</h4>
               <p>
               <?php the_field('temoignage_1'); ?>
-                <!--La démarche nous a également menés à inscrire le rapport sur les
-                droits humains […] -->
+                La démarche nous a également menés à inscrire le rapport sur les
+                droits humains […] 
               </p>
             </div>
           </div>
@@ -183,8 +176,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               <h4>Dominique Boivert</h4>
               <p>
               <?php the_field('temoignage_2'); ?>
-                <!--Changer le monde est une responsabilité, chacun à notre modeste
-                niveau[…]-->
+                Changer le monde est une responsabilité, chacun à notre modeste
+                niveau[…]
               </p>
             </div>
           </div>
@@ -195,8 +188,8 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
               <h4>Lucie Lemonde</h4>
               <p>
               <?php the_field('temoignage_3'); ?>
-                <!--Nous étions une poignée au Canada à mener les premières
-                batailles […]-->
+                Nous étions une poignée au Canada à mener les premières
+                batailles […]
               </p>
             </div>
           </div>
@@ -206,11 +199,11 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
         <div class="donations-box">
           <p>
           <?php the_field('desc_donnation'); ?>
-            <!--Toute donation est extrêmement apprécié-->
+            Toute donation est extrêmement apprécié
           </p>
           <button class="donations-box__bouton">
           <?php the_field('donner'); ?>
-          <!--Donner Ici--> </button>
+          Donner Ici </button>
         </div>
       </div>
 		

@@ -32,6 +32,18 @@
 	?>
 >
 
+	 <div class="banniere">
+      <a class="texte-banniere" href="https://liguedesdroits.ca/"
+        >Ce site est un travail scolaire. Pour accéder au site officiel, cliquez
+        ici</a
+      >
+      <img
+        class="x-banniere"
+        src="<?php bloginfo('template_url'); ?>/images/bouton_x_banniere.png" />
+        
+    </div>
+	
+	
 <!--header-->
 <div class="header">	
 	<a class="header__logo" href="<?php echo esc_url( home_url( '/' ) ); // Lien vers la page d'accueil ?>" ?>
@@ -43,10 +55,7 @@
 	</a>
 
 	<button class="header__donation h3">DONNER</button>
-    <button class="header__bouton-langue">
-      <!--FR-->
-  
-    </button>
+    <button class="header__bouton-langue">FR</button>
 
 	<div class="hotdog">
     <img class="hotdog__toggle" src="<?php bloginfo('template_url'); ?>/images/menu_hotdog.png">
@@ -71,7 +80,7 @@
     <?php
     wp_nav_menu( array(
 				'theme_location' => 'main-menu',
-				'menu_class' => 'nav-menu',
+				'menu_class' => 'nav-menu display-none',
 				'list_item_class' => 'container-liens-menu',
 				'link_item_class' => 'menu-title'
 		) );

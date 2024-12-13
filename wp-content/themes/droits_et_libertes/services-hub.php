@@ -35,22 +35,22 @@ get_header(); // Affiche header.php
     while ($service->have_posts()):
         $service->the_post(); ?>
 <div class="luttes-box">
-<a href="./service.html"><?php get_field('titre_du_service'); ?></a
-><img src="./sources/medias/image/fleche_drop_shadow.png" />
+<a href="./service.html"><?php echo get_field('titre_du_service'); ?></a
+>
 </div>
 <?php endwhile ?>
 </div>
 		
    
       </div>
-		
-	   <?php endwhile; // Fermeture de la boucle
 
-
-else : // Si aucune page n'a été trouvée
-	get_template_part( 'partials/404' ); // Affiche partials/404.php
-endif;
-
+<?php
+	
+			
 get_sidebar(); // Affiche le contenu de sidebar.php
-get_footer(); // Affiche footer.php 
+get_footer(); // Affiche footer.php
 ?>
+		
+	   
+
+

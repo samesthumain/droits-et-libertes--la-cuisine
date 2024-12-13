@@ -21,6 +21,8 @@ get_header(); // Affiche header.php
 <?php
 if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ? 
 	// Si oui, bouclons au travers les pages (logiquement, il n'y en aura qu'une)
+	// 
+	// 
 	$nouvelle = new WP_Query('post_type=nouvelle');
 	while ( $nouvelle->have_posts() ) : $nouvelle->the_post();
 ?>
@@ -32,6 +34,7 @@ if ( have_posts() ) : // Est-ce que nous avons des pages à afficher ?
                 <?php the_title(); ?>
               </p>
               <p class="infos-add"><?php echo get_field('date_de_la_nouvelle'); ?></p>
+				 <p class="infos-add"><?php echo get_field('description_de_la_nouvelle_carte'); ?></p>
             </div>
           </div>
 
